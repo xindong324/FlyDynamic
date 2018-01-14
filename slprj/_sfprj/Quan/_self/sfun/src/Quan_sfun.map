@@ -1,0 +1,1698 @@
+ Quan_sfun
+
+ Timestamp is 5a596c8f (Sat Jan 13 10:18:55 2018)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00013222H .text$mn                CODE
+ 0001:00013230 0000007bH .text$x                 CODE
+ 0002:00000000 00000470H .idata$5                DATA
+ 0002:00000470 00000008H .CRT$XCA                DATA
+ 0002:00000478 00000008H .CRT$XCZ                DATA
+ 0002:00000480 00000008H .CRT$XIA                DATA
+ 0002:00000488 00000008H .CRT$XIAA               DATA
+ 0002:00000490 00000008H .CRT$XIC                DATA
+ 0002:00000498 00000008H .CRT$XIZ                DATA
+ 0002:000004a0 00000790H .rdata                  DATA
+ 0002:00000c30 00000008H .rtc$IAA                DATA
+ 0002:00000c38 00000008H .rtc$IZZ                DATA
+ 0002:00000c40 00000008H .rtc$TAA                DATA
+ 0002:00000c48 00000008H .rtc$TZZ                DATA
+ 0002:00000c50 0000076cH .xdata                  DATA
+ 0002:000013c0 0000004fH .edata                  DATA
+ 0002:00001410 0000008cH .idata$2                DATA
+ 0002:0000149c 00000014H .idata$3                DATA
+ 0002:000014b0 00000470H .idata$4                DATA
+ 0002:00001920 00000c96H .idata$6                DATA
+ 0003:00000000 000025b8H .data                   DATA
+ 0003:000025c0 000006b8H .bss                    DATA
+ 0004:00000000 00000900H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       __guard_flags              0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       Quan_initializer           0000000180001000 f   Quan_sfun.obj
+ 0001:00000010       Quan_terminator            0000000180001010 f   Quan_sfun.obj
+ 0001:00000020       load_Quan_optimization_info 0000000180001020 f   Quan_sfun.obj
+ 0001:000000d0       unload_Quan_optimization_info 00000001800010d0 f   Quan_sfun.obj
+ 0001:00000100       sf_Quan_method_dispatcher  0000000180001100 f   Quan_sfun.obj
+ 0001:00000150       sf_Quan_process_check_sum_call 0000000180001150 f   Quan_sfun.obj
+ 0001:00000700       sf_Quan_autoinheritance_info 0000000180001700 f   Quan_sfun.obj
+ 0001:000008e0       sf_Quan_get_eml_resolved_functions_info 00000001800018e0 f   Quan_sfun.obj
+ 0001:00000a60       sf_Quan_third_party_uses_info 0000000180001a60 f   Quan_sfun.obj
+ 0001:00000c30       sf_Quan_jit_fallback_info  0000000180001c30 f   Quan_sfun.obj
+ 0001:00000e00       sf_Quan_updateBuildInfo_args_info 0000000180001e00 f   Quan_sfun.obj
+ 0001:00000fd0       Quan_debug_initialize      0000000180001fd0 f   Quan_sfun.obj
+ 0001:00001050       Quan_register_exported_symbols 0000000180002050 f   Quan_sfun.obj
+ 0001:00001060       sf_c1_Quan_get_eml_resolved_functions_info 0000000180002060 f   c1_Quan.obj
+ 0001:000010e0       sf_c1_Quan_get_check_sum   00000001800020e0 f   c1_Quan.obj
+ 0001:000011b0       c1_Quan_method_dispatcher  00000001800021b0 f   c1_Quan.obj
+ 0001:00008270       sf_c1_Quan_get_post_codegen_info 0000000180009270 f   c1_Quan.obj
+ 0001:00008340       sf_c1_Quan_get_autoinheritance_info 0000000180009340 f   c1_Quan.obj
+ 0001:00009d30       sf_c1_Quan_third_party_uses_info 000000018000ad30 f   c1_Quan.obj
+ 0001:00009d60       sf_c1_Quan_jit_fallback_info 000000018000ad60 f   c1_Quan.obj
+ 0001:00009ef0       sf_c1_Quan_updateBuildInfo_args_info 000000018000aef0 f   c1_Quan.obj
+ 0001:0000ac80       mexFunction                000000018000bc80 f   Quan_sfun_registry.obj
+ 0001:0000c050       _ssSetInputPortDirectFeedThroughFcn 000000018000d050 f   Quan_sfun_registry.obj
+ 0001:0000c200       _ssGetInputPortSignalPtrsFcn 000000018000d200 f   Quan_sfun_registry.obj
+ 0001:0000c4d0       _ssGetInputPortSignalFcn   000000018000d4d0 f   Quan_sfun_registry.obj
+ 0001:0000c7a0       _ssSetInputPortReusableFcn 000000018000d7a0 f   Quan_sfun_registry.obj
+ 0001:0000c880       _ssSetOutputPortReusableFcn 000000018000d880 f   Quan_sfun_registry.obj
+ 0001:0000c960       _ssSetSymbolicDimsSupport  000000018000d960 f   Quan_sfun_registry.obj
+ 0001:0000c9d0       _ssRegisterSymbolicDimsExpr 000000018000d9d0 f   Quan_sfun_registry.obj
+ 0001:0000ca50       _ssRegisterSymbolicDims    000000018000da50 f   Quan_sfun_registry.obj
+ 0001:0000caf0       _ssRegisterSymbolicDimsString 000000018000daf0 f   Quan_sfun_registry.obj
+ 0001:0000cb70       _ssRegisterSymbolicDimsIntValue 000000018000db70 f   Quan_sfun_registry.obj
+ 0001:0000cbe0       _ssRegisterSymbolicDimsPlus 000000018000dbe0 f   Quan_sfun_registry.obj
+ 0001:0000cc60       _ssRegisterSymbolicDimsMinus 000000018000dc60 f   Quan_sfun_registry.obj
+ 0001:0000cce0       _ssRegisterSymbolicDimsMultiply 000000018000dce0 f   Quan_sfun_registry.obj
+ 0001:0000cd60       _ssRegisterSymbolicDimsDivide 000000018000dd60 f   Quan_sfun_registry.obj
+ 0001:0000cde0       _ssGetNumSymbolicDims      000000018000dde0 f   Quan_sfun_registry.obj
+ 0001:0000ce50       _ssGetSymbolicDim          000000018000de50 f   Quan_sfun_registry.obj
+ 0001:0000ced0       _ssSetInputPortSymbolicDimsId 000000018000ded0 f   Quan_sfun_registry.obj
+ 0001:0000cf40       _ssGetCompInputPortSymbolicDimsId 000000018000df40 f   Quan_sfun_registry.obj
+ 0001:0000cfb0       _ssSetCompInputPortSymbolicDimsId 000000018000dfb0 f   Quan_sfun_registry.obj
+ 0001:0000d020       _ssSetOutputPortSymbolicDimsId 000000018000e020 f   Quan_sfun_registry.obj
+ 0001:0000d090       _ssGetCompOutputPortSymbolicDimsId 000000018000e090 f   Quan_sfun_registry.obj
+ 0001:0000d100       _ssSetCompOutputPortSymbolicDimsId 000000018000e100 f   Quan_sfun_registry.obj
+ 0001:0000d170       _ssSetCompDWorkSymbolicDimsId 000000018000e170 f   Quan_sfun_registry.obj
+ 0001:0000d1e0       ssGetIsZeroCrossControlDisabled 000000018000e1e0 f   Quan_sfun_registry.obj
+ 0001:0000d250       ssSetIsInputPortUsedForContZcSignal 000000018000e250 f   Quan_sfun_registry.obj
+ 0001:0000d2c0       ssSetZcSignalIsZcElementDisc 000000018000e2c0 f   Quan_sfun_registry.obj
+ 0001:0000d370       ssSetZcSignalName          000000018000e370 f   Quan_sfun_registry.obj
+ 0001:0000d3e0       ssSetZcSignalWidth         000000018000e3e0 f   Quan_sfun_registry.obj
+ 0001:0000d450       ssSetZcSignalZcEventType   000000018000e450 f   Quan_sfun_registry.obj
+ 0001:0000d4c0       ssSetZcSignalType          000000018000e4c0 f   Quan_sfun_registry.obj
+ 0001:0000d530       ssSetZcSignalZcTol         000000018000e530 f   Quan_sfun_registry.obj
+ 0001:0000d5a0       ssSetZcSignalNeedsEventNotification 000000018000e5a0 f   Quan_sfun_registry.obj
+ 0001:0000d610       ssCreateAndAddZcSignalInfo 000000018000e610 f   Quan_sfun_registry.obj
+ 0001:0000d680       ssCloneAndAddZcSignalInfo  000000018000e680 f   Quan_sfun_registry.obj
+ 0001:0000d6f0       ssGetNumZcSignals          000000018000e6f0 f   Quan_sfun_registry.obj
+ 0001:0000d760       ssGetZcSignalVector        000000018000e760 f   Quan_sfun_registry.obj
+ 0001:0000d7d0       ssGetZcSignalName          000000018000e7d0 f   Quan_sfun_registry.obj
+ 0001:0000d840       ssGetZcSignalWidth         000000018000e840 f   Quan_sfun_registry.obj
+ 0001:0000d8b0       ssGetZcSignalZcEventType   000000018000e8b0 f   Quan_sfun_registry.obj
+ 0001:0000d920       ssGetZcSignalZcEvents      000000018000e920 f   Quan_sfun_registry.obj
+ 0001:0000d990       ssGetZcSignalType          000000018000e990 f   Quan_sfun_registry.obj
+ 0001:0000da00       ssGetZcSignalZcTol         000000018000ea00 f   Quan_sfun_registry.obj
+ 0001:0000da80       ssGetZcSignalNeedsEventNotification 000000018000ea80 f   Quan_sfun_registry.obj
+ 0001:0000daf0       ssGetZcSignalIsZcElementDisc 000000018000eaf0 f   Quan_sfun_registry.obj
+ 0001:0000db90       ssGetIsInputPortElementContinuous 000000018000eb90 f   Quan_sfun_registry.obj
+ 0001:0000dc30       ssGetDTypeIdFromMxArray    000000018000ec30 f   Quan_sfun_registry.obj
+ 0001:0000dd50       ssWriteRTWStr              000000018000ed50 f   Quan_sfun_registry.obj
+ 0001:0000ddb0       ssWriteRTWNameValuePair    000000018000edb0 f   Quan_sfun_registry.obj
+ 0001:0000e2b0       ssWriteRTWParamSettings    000000018000f2b0 f   Quan_sfun_registry.obj
+ 0001:0000e9a0       ssWriteRTWParameters       000000018000f9a0 f   Quan_sfun_registry.obj
+ 0001:0000ef70       ssWriteRTWWorkVect         000000018000ff70 f   Quan_sfun_registry.obj
+ 0001:0000f460       ssWriteRTWMxVectParam      0000000180010460 f   Quan_sfun_registry.obj
+ 0001:0000f4e0       ssWriteRTWMx2dMatParam     00000001800104e0 f   Quan_sfun_registry.obj
+ 0001:0000f570       _ssSetInputPortMatrixDimensions 0000000180010570 f   Quan_sfun_registry.obj
+ 0001:0000f670       _ssSetOutputPortMatrixDimensions 0000000180010670 f   Quan_sfun_registry.obj
+ 0001:0000f770       _ssSetInputPortVectorDimension 0000000180010770 f   Quan_sfun_registry.obj
+ 0001:0000f820       _ssSetOutputPortVectorDimension 0000000180010820 f   Quan_sfun_registry.obj
+ 0001:0000f8d0       ssIsRunTimeParamTunable    00000001800108d0 f   Quan_sfun_registry.obj
+ 0001:0000f940       ssGetSFuncBlockHandle      0000000180010940 f   Quan_sfun_registry.obj
+ 0001:0000f9b0       _ssGetCurrentInputPortWidth 00000001800109b0 f   Quan_sfun_registry.obj
+ 0001:0000fad0       _ssGetCurrentOutputPortWidth 0000000180010ad0 f   Quan_sfun_registry.obj
+ 0001:0000fbf0       _ssGetCallSystemNumFcnCallDestinations 0000000180010bf0 f   Quan_sfun_registry.obj
+ 0001:0000fc60       ssGetParameterTuningCompliance 0000000180010c60 f   Quan_sfun_registry.obj
+ 0001:0000fcd0       ssWarning                  0000000180010cd0 f   Quan_sfun_registry.obj
+ 0001:0000fdc0       _ssGetAbsTol               0000000180010dc0 f   Quan_sfun_registry.obj
+ 0001:0000fe30       _ssSetStateAbsTol          0000000180010e30 f   Quan_sfun_registry.obj
+ 0001:0000ff10       sf_process_check_sum_call  0000000180010f10 f   Quan_sfun_registry.obj
+ 0001:0000ff60       sf_process_autoinheritance_call 0000000180010f60 f   Quan_sfun_registry.obj
+ 0001:00010190       sf_process_get_third_party_uses_info_call 0000000180011190 f   Quan_sfun_registry.obj
+ 0001:000103c0       sf_process_get_jit_fallback_info_call 00000001800113c0 f   Quan_sfun_registry.obj
+ 0001:000105f0       sf_process_get_updateBuildInfo_args_info_call 00000001800115f0 f   Quan_sfun_registry.obj
+ 0001:00010820       sf_process_get_eml_resolved_functions_info_call 0000000180011820 f   Quan_sfun_registry.obj
+ 0001:00010a20       sf_mex_unlock_call         0000000180011a20 f   Quan_sfun_registry.obj
+ 0001:00010cc0       sf_machine_global_initializer_called 0000000180011cc0 f   Quan_sfun_registry.obj
+ 0001:00010cf0       sf_machine_global_method_dispatcher 0000000180011cf0 f   Quan_sfun_registry.obj
+ 0001:00010d50       sf_machine_global_terminator 0000000180011d50 f   Quan_sfun_registry.obj
+ 0001:00010da0       sf_register_machine_exported_symbols 0000000180011da0 f   Quan_sfun_registry.obj
+ 0001:00010dc0       callCustomFcn              0000000180011dc0 f   Quan_sfun_registry.obj
+ 0001:00010dd0       sf_machine_global_initializer 0000000180011dd0 f   Quan_sfun_registry.obj
+ 0001:00010e50       mdlGetSimState             0000000180011e50 f   Quan_sfun_registry.obj
+ 0001:00010e90       mdlSetSimState             0000000180011e90 f   Quan_sfun_registry.obj
+ 0001:000116f0       ProcessMexSfunctionEveryCall 00000001800126f0 f   Quan_sfun_registry.obj
+ 0001:000123f6       sf_load_rtw_optimization_info 00000001800133f6 f   sf_runtime:sf_runtime.dll
+ 0001:000123fc       sf_debug_initialize_machine 00000001800133fc f   sf_runtime:sf_runtime.dll
+ 0001:00012402       sf_debug_set_machine_event_thresholds 0000000180013402 f   sf_runtime:sf_runtime.dll
+ 0001:00012408       sf_debug_set_machine_data_thresholds 0000000180013408 f   sf_runtime:sf_runtime.dll
+ 0001:0001240e       sf_init_ChartRunTimeInfo   000000018001340e f   sf_runtime:sf_runtime.dll
+ 0001:00012414       sf_free_ChartRunTimeInfo   0000000180013414 f   sf_runtime:sf_runtime.dll
+ 0001:0001241a       sf_get_chart_instance_ptr  000000018001341a f   sf_runtime:sf_runtime.dll
+ 0001:00012420       sf_rtw_info_uint_prop      0000000180013420 f   sf_runtime:sf_runtime.dll
+ 0001:00012426       sf_update_buildInfo        0000000180013426 f   sf_runtime:sf_runtime.dll
+ 0001:0001242c       sf_is_chart_inlinable      000000018001342c f   sf_runtime:sf_runtime.dll
+ 0001:00012432       sf_mark_chart_reusable_outputs 0000000180013432 f   sf_runtime:sf_runtime.dll
+ 0001:00012438       sf_mark_chart_expressionable_inputs 0000000180013438 f   sf_runtime:sf_runtime.dll
+ 0001:0001243e       sim_mode_is_rtw_gen        000000018001343e f   sf_runtime:sf_runtime.dll
+ 0001:00012444       sim_mode_is_external       0000000180013444 f   sf_runtime:sf_runtime.dll
+ 0001:0001244a       sim_mode_is_modelref_sim   000000018001344a f   sf_runtime:sf_runtime.dll
+ 0001:00012450       sf_clear_rtw_identifier    0000000180013450 f   sf_runtime:sf_runtime.dll
+ 0001:00012456       sf_set_rtw_dwork_info      0000000180013456 f   sf_runtime:sf_runtime.dll
+ 0001:0001245c       sf_get_time                000000018001345c f   sf_runtime:sf_runtime.dll
+ 0001:00012462       sf_is_first_init_cond      0000000180013462 f   sf_runtime:sf_runtime.dll
+ 0001:00012468       sf_set_chart_accesses_machine_info 0000000180013468 f   sf_runtime:sf_runtime.dll
+ 0001:0001246e       sf_mex_call_debug          000000018001346e f   sf_runtime:sf_runtime.dll
+ 0001:00012474       sf_mex_error_message       0000000180013474 f   sf_runtime:sf_runtime.dll
+ 0001:0001247a       sf_mex_create              000000018001347a f   sf_runtime:sf_runtime.dll
+ 0001:00012480       sf_mex_createcellmatrix    0000000180013480 f   sf_runtime:sf_runtime.dll
+ 0001:00012486       sf_mex_setcell             0000000180013486 f   sf_runtime:sf_runtime.dll
+ 0001:0001248c       sf_mex_getcell             000000018001348c f   sf_runtime:sf_runtime.dll
+ 0001:00012492       sf_mex_assign              0000000180013492 f   sf_runtime:sf_runtime.dll
+ 0001:00012498       sf_mex_dup                 0000000180013498 f   sf_runtime:sf_runtime.dll
+ 0001:0001249e       sf_mex_destroy             000000018001349e f   sf_runtime:sf_runtime.dll
+ 0001:000124a4       sf_mex_import              00000001800134a4 f   sf_runtime:sf_runtime.dll
+ 0001:000124aa       sf_mex_decode_encoded_mx_struct_array 00000001800134aa f   sf_runtime:sf_runtime.dll
+ 0001:000124b0       ssGetInputPortSignal_wrapper 00000001800134b0 f   sf_runtime:sf_runtime.dll
+ 0001:000124b6       ssGetOutputPortSignal_wrapper 00000001800134b6 f   sf_runtime:sf_runtime.dll
+ 0001:000124bc       sf_debug_initialize_chart  00000001800134bc f   sf_runtime:sf_runtime.dll
+ 0001:000124c2       sf_debug_call              00000001800134c2 f   sf_runtime:sf_runtime.dll
+ 0001:000124c8       eml_debug_line_call        00000001800134c8 f   sf_runtime:sf_runtime.dll
+ 0001:000124ce       cv_eml_eval                00000001800134ce f   sf_runtime:sf_runtime.dll
+ 0001:000124d4       cv_eml_init_script         00000001800134d4 f   sf_runtime:sf_runtime.dll
+ 0001:000124da       cv_eml_init_fcn            00000001800134da f   sf_runtime:sf_runtime.dll
+ 0001:000124e0       sf_debug_reset_current_state_configuration 00000001800134e0 f   sf_runtime:sf_runtime.dll
+ 0001:000124e6       sf_debug_check_for_state_inconsistency 00000001800134e6 f   sf_runtime:sf_runtime.dll
+ 0001:000124ec       sf_debug_set_chart_data_props 00000001800134ec f   sf_runtime:sf_runtime.dll
+ 0001:000124f2       sf_debug_set_chart_data_compiled_props 00000001800134f2 f   sf_runtime:sf_runtime.dll
+ 0001:000124f8       sf_debug_symbol_scope_push 00000001800134f8 f   sf_runtime:sf_runtime.dll
+ 0001:000124fe       sf_debug_symbol_scope_push_eml 00000001800134fe f   sf_runtime:sf_runtime.dll
+ 0001:00012504       sf_debug_symbol_scope_pop  0000000180013504 f   sf_runtime:sf_runtime.dll
+ 0001:0001250a       sf_debug_symbol_scope_add_eml 000000018001350a f   sf_runtime:sf_runtime.dll
+ 0001:00012510       sf_debug_symbol_scope_add_eml_importable 0000000180013510 f   sf_runtime:sf_runtime.dll
+ 0001:00012516       sf_debug_set_instance_data_value_ptr 0000000180013516 f   sf_runtime:sf_runtime.dll
+ 0001:0001251c       sf_debug_set_chart_disable_implicit_casting 000000018001351c f   sf_runtime:sf_runtime.dll
+ 0001:00012522       sf_debug_set_chart_event_thresholds 0000000180013522 f   sf_runtime:sf_runtime.dll
+ 0001:00012528       sf_debug_set_chart_state_info 0000000180013528 f   sf_runtime:sf_runtime.dll
+ 0001:0001252e       sf_debug_set_chart_decomposition 000000018001352e f   sf_runtime:sf_runtime.dll
+ 0001:00012534       sf_debug_set_chart_substate_count 0000000180013534 f   sf_runtime:sf_runtime.dll
+ 0001:0001253a       sf_debug_data_range_wrapper 000000018001353a f   sf_runtime:sf_runtime.dll
+ 0001:00012540       sf_debug_cv_init_trans     0000000180013540 f   sf_runtime:sf_runtime.dll
+ 0001:00012546       sf_debug_cv_init_chart     0000000180013546 f   sf_runtime:sf_runtime.dll
+ 0001:0001254c       sf_debug_cv_init_state     000000018001354c f   sf_runtime:sf_runtime.dll
+ 0001:00012552       sf_get_ChartInfoStruct_CodeGen 0000000180013552 f   sf_runtime:sf_runtime.dll
+ 0001:00012558       sf_get_isEnhancedMooreMachine 0000000180013558 f   sf_runtime:sf_runtime.dll
+ 0001:0001255e       sf_set_compiledInfo        000000018001355e f   sf_runtime:sf_runtime.dll
+ 0001:00012564       callMdlMethodAndReportError 0000000180013564 f   sf_runtime:sf_runtime.dll
+ 0001:0001256a       call_sf_machine_global_method_dispatcher 000000018001356a f   sf_runtime:sf_runtime.dll
+ 0001:00012570       sf_mex_error_direct_call   0000000180013570 f   sf_runtime:sf_runtime.dll
+ 0001:00012576       sf_clear_error_manager_info 0000000180013576 f   sf_runtime:sf_runtime.dll
+ 0001:0001257c       sf_debug_create_debug_instance_struct 000000018001357c f   sf_runtime:sf_runtime.dll
+ 0001:00012582       sf_debug_terminate         0000000180013582 f   sf_runtime:sf_runtime.dll
+ 0001:00012588       sf_debug_api               0000000180013588 f   sf_runtime:sf_runtime.dll
+ 0001:0001258e       mxIsChar                   000000018001358e f   libmx:libmx.dll
+ 0001:00012594       mxGetPr                    0000000180013594 f   libmx:libmx.dll
+ 0001:0001259a       mxGetScalar                000000018001359a f   libmx:libmx.dll
+ 0001:000125a0       mxDestroyArray             00000001800135a0 f   libmx:libmx.dll
+ 0001:000125a6       mxCreateDoubleMatrix_730   00000001800135a6 f   libmx:libmx.dll
+ 0001:000125ac       mxGetString_730            00000001800135ac f   libmx:libmx.dll
+ 0001:000125b2       mxDuplicateArray           00000001800135b2 f   libmx:libmx.dll
+ 0001:000125b8       mxSetField_730             00000001800135b8 f   libmx:libmx.dll
+ 0001:000125be       mxCreateDoubleScalar       00000001800135be f   libmx:libmx.dll
+ 0001:000125c4       mxCreateString             00000001800135c4 f   libmx:libmx.dll
+ 0001:000125ca       mxCreateCellMatrix_730     00000001800135ca f   libmx:libmx.dll
+ 0001:000125d0       mxCreateCellArray_730      00000001800135d0 f   libmx:libmx.dll
+ 0001:000125d6       mxCreateStructMatrix_730   00000001800135d6 f   libmx:libmx.dll
+ 0001:000125dc       mxCreateStructArray_730    00000001800135dc f   libmx:libmx.dll
+ 0001:000125e2       mxCalloc                   00000001800135e2 f   libmx:libmx.dll
+ 0001:000125e8       mxGetM                     00000001800135e8 f   libmx:libmx.dll
+ 0001:000125ee       mxGetClassID               00000001800135ee f   libmx:libmx.dll
+ 0001:000125f4       mxIsNumeric                00000001800135f4 f   libmx:libmx.dll
+ 0001:000125fa       mxIsComplex                00000001800135fa f   libmx:libmx.dll
+ 0001:00012600       mxGetN                     0000000180013600 f   libmx:libmx.dll
+ 0001:00012606       mexMakeArrayPersistent     0000000180013606 f   libmex:libmex.dll
+ 0001:0001260c       mexErrMsgTxt               000000018001360c f   libmex:libmex.dll
+ 0001:00012612       mexWarnMsgTxt              0000000180013612 f   libmex:libmex.dll
+ 0001:00012618       mexCallMATLABWithObject    0000000180013618 f   libmex:libmex.dll
+ 0001:0001261e       mexLock                    000000018001361e f   libmex:libmex.dll
+ 0001:00012624       mexUnlock                  0000000180013624 f   libmex:libmex.dll
+ 0001:0001262a       mexIsLocked                000000018001362a f   libmex:libmex.dll
+ 0001:00012630       utMalloc                   0000000180013630 f   libut:libut.dll
+ 0001:00012636       utFree                     0000000180013636 f   libut:libut.dll
+ 0001:0001263c       muDoubleScalarCos          000000018001363c f   libmwmathutil:libmwmathutil.dll
+ 0001:00012642       muDoubleScalarSin          0000000180013642 f   libmwmathutil:libmwmathutil.dll
+ 0001:00012648       muDoubleScalarSqrt         0000000180013648 f   libmwmathutil:libmwmathutil.dll
+ 0001:0001264e       muDoubleScalarTan          000000018001364e f   libmwmathutil:libmwmathutil.dll
+ 0001:00012654       __raise_securityfailure    0000000180013654 f   MSVCRT:gs_report.obj
+ 0001:000126a0       __report_gsfailure         00000001800136a0 f   MSVCRT:gs_report.obj
+ 0001:00012774       __report_rangecheckfailure 0000000180013774 f   MSVCRT:gs_report.obj
+ 0001:00012788       __report_securityfailure   0000000180013788 f   MSVCRT:gs_report.obj
+ 0001:00012824       __report_securityfailureEx 0000000180013824 f   MSVCRT:gs_report.obj
+ 0001:00012932       strcmp                     0000000180013932 f   MSVCRT:MSVCR120.dll
+ 0001:00012938       __GSHandlerCheck           0000000180013938 f   MSVCRT:gshandler.obj
+ 0001:00012958       __GSHandlerCheckCommon     0000000180013958 f   MSVCRT:gshandler.obj
+ 0001:000129d0       __security_check_cookie    00000001800139d0 f   MSVCRT:amdsecgs.obj
+ 0001:000129f0       memset                     00000001800139f0 f   MSVCRT:MSVCR120.dll
+ 0001:000129f6       memcpy                     00000001800139f6 f   MSVCRT:MSVCR120.dll
+ 0001:000129fc       strcat                     00000001800139fc f   MSVCRT:MSVCR120.dll
+ 0001:00012a02       strlen                     0000000180013a02 f   MSVCRT:MSVCR120.dll
+ 0001:00012a08       sprintf                    0000000180013a08 f   MSVCRT:MSVCR120.dll
+ 0001:00012a0e       free                       0000000180013a0e f   MSVCRT:MSVCR120.dll
+ 0001:00012a14       malloc                     0000000180013a14 f   MSVCRT:MSVCR120.dll
+ 0001:00012a7c       NtCurrentTeb               0000000180013a7c f i MSVCRT:crtdll.obj
+ 0001:00012a88       _CRT_INIT                  0000000180013a88 f   MSVCRT:crtdll.obj
+ 0001:00012cd4       _DllMainCRTStartup         0000000180013cd4 f   MSVCRT:crtdll.obj
+ 0001:00012e4a       __crt_debugger_hook        0000000180013e4a f   MSVCRT:MSVCR120.dll
+ 0001:00012e50       __crtUnhandledException    0000000180013e50 f   MSVCRT:MSVCR120.dll
+ 0001:00012e56       __crtTerminateProcess      0000000180013e56 f   MSVCRT:MSVCR120.dll
+ 0001:00012e5c       __crtCaptureCurrentContext 0000000180013e5c f   MSVCRT:MSVCR120.dll
+ 0001:00012e62       __crtCapturePreviousContext 0000000180013e62 f   MSVCRT:MSVCR120.dll
+ 0001:00012e68       __CppXcptFilter            0000000180013e68 f   MSVCRT:MSVCR120.dll
+ 0001:00012e6e       _amsg_exit                 0000000180013e6e f   MSVCRT:MSVCR120.dll
+ 0001:00012e80       _FindPESection             0000000180013e80 f   MSVCRT:pesect.obj
+ 0001:00012ed0       _IsNonwritableInCurrentImage 0000000180013ed0 f   MSVCRT:pesect.obj
+ 0001:00012f20       _ValidateImageBase         0000000180013f20 f   MSVCRT:pesect.obj
+ 0001:00012f50       __atonexitinit             0000000180013f50 f   MSVCRT:atonexit.obj
+ 0001:00012fa0       _onexit                    0000000180013fa0 f   MSVCRT:atonexit.obj
+ 0001:00013050       atexit                     0000000180014050 f   MSVCRT:atonexit.obj
+ 0001:00013068       __security_init_cookie     0000000180014068 f   MSVCRT:gs_support.obj
+ 0001:00013114       DllMain                    0000000180014114 f   MSVCRT:dllmain.obj
+ 0001:00013138       _malloc_crt                0000000180014138 f   MSVCRT:MSVCR120.dll
+ 0001:00013140       _RTC_Initialize            0000000180014140 f   MSVCRT:initsect.obj
+ 0001:00013178       _RTC_Terminate             0000000180014178 f   MSVCRT:initsect.obj
+ 0001:000131b0       _initterm                  00000001800141b0 f   MSVCRT:MSVCR120.dll
+ 0001:000131b6       _initterm_e                00000001800141b6 f   MSVCRT:MSVCR120.dll
+ 0001:000131bc       __clean_type_info_names    00000001800141bc f   MSVCRT:tncleanup.obj
+ 0001:000131c8       __C_specific_handler       00000001800141c8 f   MSVCRT:MSVCR120.dll
+ 0001:000131ce       _lock                      00000001800141ce f   MSVCRT:MSVCR120.dll
+ 0001:000131d4       _unlock                    00000001800141d4 f   MSVCRT:MSVCR120.dll
+ 0001:000131da       _calloc_crt                00000001800141da f   MSVCRT:MSVCR120.dll
+ 0001:000131e0       __dllonexit                00000001800141e0 f   MSVCRT:MSVCR120.dll
+ 0001:000131e6       __clean_type_info_names_internal 00000001800141e6 f   MSVCRT:MSVCR120.dll
+ 0001:000131ec       IsDebuggerPresent          00000001800141ec f   kernel32:KERNEL32.dll
+ 0001:000131f2       IsProcessorFeaturePresent  00000001800141f2 f   kernel32:KERNEL32.dll
+ 0001:000131f8       EncodePointer              00000001800141f8 f   kernel32:KERNEL32.dll
+ 0001:000131fe       DecodePointer              00000001800141fe f   kernel32:KERNEL32.dll
+ 0001:00013204       QueryPerformanceCounter    0000000180014204 f   kernel32:KERNEL32.dll
+ 0001:0001320a       GetCurrentProcessId        000000018001420a f   kernel32:KERNEL32.dll
+ 0001:00013210       GetCurrentThreadId         0000000180014210 f   kernel32:KERNEL32.dll
+ 0001:00013216       GetSystemTimeAsFileTime    0000000180014216 f   kernel32:KERNEL32.dll
+ 0001:0001321c       DisableThreadLibraryCalls  000000018001421c f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp_DisableThreadLibraryCalls 0000000180015000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_GetSystemTimeAsFileTime 0000000180015008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_GetCurrentThreadId   0000000180015010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_GetCurrentProcessId  0000000180015018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_QueryPerformanceCounter 0000000180015020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_DecodePointer        0000000180015028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_EncodePointer        0000000180015030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_IsProcessorFeaturePresent 0000000180015038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_IsDebuggerPresent    0000000180015040     kernel32:KERNEL32.dll
+ 0002:00000048       \177KERNEL32_NULL_THUNK_DATA 0000000180015048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp___clean_type_info_names_internal 0000000180015050     MSVCRT:MSVCR120.dll
+ 0002:00000058       __imp__onexit              0000000180015058     MSVCRT:MSVCR120.dll
+ 0002:00000060       __imp___dllonexit          0000000180015060     MSVCRT:MSVCR120.dll
+ 0002:00000068       __imp__calloc_crt          0000000180015068     MSVCRT:MSVCR120.dll
+ 0002:00000070       __imp__unlock              0000000180015070     MSVCRT:MSVCR120.dll
+ 0002:00000078       __imp__lock                0000000180015078     MSVCRT:MSVCR120.dll
+ 0002:00000080       __imp___C_specific_handler 0000000180015080     MSVCRT:MSVCR120.dll
+ 0002:00000088       __imp__initterm_e          0000000180015088     MSVCRT:MSVCR120.dll
+ 0002:00000090       __imp__initterm            0000000180015090     MSVCRT:MSVCR120.dll
+ 0002:00000098       __imp__malloc_crt          0000000180015098     MSVCRT:MSVCR120.dll
+ 0002:000000a0       __imp__amsg_exit           00000001800150a0     MSVCRT:MSVCR120.dll
+ 0002:000000a8       __imp___CppXcptFilter      00000001800150a8     MSVCRT:MSVCR120.dll
+ 0002:000000b0       __imp___crtCapturePreviousContext 00000001800150b0     MSVCRT:MSVCR120.dll
+ 0002:000000b8       __imp___crtCaptureCurrentContext 00000001800150b8     MSVCRT:MSVCR120.dll
+ 0002:000000c0       __imp___crtTerminateProcess 00000001800150c0     MSVCRT:MSVCR120.dll
+ 0002:000000c8       __imp___crtUnhandledException 00000001800150c8     MSVCRT:MSVCR120.dll
+ 0002:000000d0       __imp___crt_debugger_hook  00000001800150d0     MSVCRT:MSVCR120.dll
+ 0002:000000d8       __imp_malloc               00000001800150d8     MSVCRT:MSVCR120.dll
+ 0002:000000e0       __imp_free                 00000001800150e0     MSVCRT:MSVCR120.dll
+ 0002:000000e8       __imp_sprintf              00000001800150e8     MSVCRT:MSVCR120.dll
+ 0002:000000f0       __imp_strlen               00000001800150f0     MSVCRT:MSVCR120.dll
+ 0002:000000f8       __imp_strcat               00000001800150f8     MSVCRT:MSVCR120.dll
+ 0002:00000100       __imp_memcpy               0000000180015100     MSVCRT:MSVCR120.dll
+ 0002:00000108       __imp_memset               0000000180015108     MSVCRT:MSVCR120.dll
+ 0002:00000110       __imp_strcmp               0000000180015110     MSVCRT:MSVCR120.dll
+ 0002:00000118       \177MSVCR120_NULL_THUNK_DATA 0000000180015118     MSVCRT:MSVCR120.dll
+ 0002:00000120       __imp_mexIsLocked          0000000180015120     libmex:libmex.dll
+ 0002:00000128       __imp_mexErrMsgTxt         0000000180015128     libmex:libmex.dll
+ 0002:00000130       __imp_mexWarnMsgTxt        0000000180015130     libmex:libmex.dll
+ 0002:00000138       __imp_mexCallMATLABWithObject 0000000180015138     libmex:libmex.dll
+ 0002:00000140       __imp_mexLock              0000000180015140     libmex:libmex.dll
+ 0002:00000148       __imp_mexMakeArrayPersistent 0000000180015148     libmex:libmex.dll
+ 0002:00000150       __imp_mexUnlock            0000000180015150     libmex:libmex.dll
+ 0002:00000158       \177libmex_NULL_THUNK_DATA 0000000180015158     libmex:libmex.dll
+ 0002:00000160       __imp_muDoubleScalarSin    0000000180015160     libmwmathutil:libmwmathutil.dll
+ 0002:00000168       __imp_muDoubleScalarSqrt   0000000180015168     libmwmathutil:libmwmathutil.dll
+ 0002:00000170       __imp_muDoubleScalarTan    0000000180015170     libmwmathutil:libmwmathutil.dll
+ 0002:00000178       __imp_muDoubleScalarCos    0000000180015178     libmwmathutil:libmwmathutil.dll
+ 0002:00000180       \177libmwmathutil_NULL_THUNK_DATA 0000000180015180     libmwmathutil:libmwmathutil.dll
+ 0002:00000188       __imp_mxGetN               0000000180015188     libmx:libmx.dll
+ 0002:00000190       __imp_mxIsComplex          0000000180015190     libmx:libmx.dll
+ 0002:00000198       __imp_mxIsNumeric          0000000180015198     libmx:libmx.dll
+ 0002:000001a0       __imp_mxGetClassID         00000001800151a0     libmx:libmx.dll
+ 0002:000001a8       __imp_mxGetM               00000001800151a8     libmx:libmx.dll
+ 0002:000001b0       __imp_mxCalloc             00000001800151b0     libmx:libmx.dll
+ 0002:000001b8       __imp_mxCreateStructArray_730 00000001800151b8     libmx:libmx.dll
+ 0002:000001c0       __imp_mxCreateStructMatrix_730 00000001800151c0     libmx:libmx.dll
+ 0002:000001c8       __imp_mxCreateCellArray_730 00000001800151c8     libmx:libmx.dll
+ 0002:000001d0       __imp_mxCreateCellMatrix_730 00000001800151d0     libmx:libmx.dll
+ 0002:000001d8       __imp_mxCreateString       00000001800151d8     libmx:libmx.dll
+ 0002:000001e0       __imp_mxCreateDoubleScalar 00000001800151e0     libmx:libmx.dll
+ 0002:000001e8       __imp_mxSetField_730       00000001800151e8     libmx:libmx.dll
+ 0002:000001f0       __imp_mxDuplicateArray     00000001800151f0     libmx:libmx.dll
+ 0002:000001f8       __imp_mxGetString_730      00000001800151f8     libmx:libmx.dll
+ 0002:00000200       __imp_mxCreateDoubleMatrix_730 0000000180015200     libmx:libmx.dll
+ 0002:00000208       __imp_mxDestroyArray       0000000180015208     libmx:libmx.dll
+ 0002:00000210       __imp_mxGetScalar          0000000180015210     libmx:libmx.dll
+ 0002:00000218       __imp_mxGetPr              0000000180015218     libmx:libmx.dll
+ 0002:00000220       __imp_mxIsChar             0000000180015220     libmx:libmx.dll
+ 0002:00000228       \177libmx_NULL_THUNK_DATA  0000000180015228     libmx:libmx.dll
+ 0002:00000230       __imp_utMalloc             0000000180015230     libut:libut.dll
+ 0002:00000238       __imp_utFree               0000000180015238     libut:libut.dll
+ 0002:00000240       \177libut_NULL_THUNK_DATA  0000000180015240     libut:libut.dll
+ 0002:00000248       __imp_sf_debug_create_debug_instance_struct 0000000180015248     sf_runtime:sf_runtime.dll
+ 0002:00000250       __imp_sf_clear_error_manager_info 0000000180015250     sf_runtime:sf_runtime.dll
+ 0002:00000258       __imp_sf_mex_error_direct_call 0000000180015258     sf_runtime:sf_runtime.dll
+ 0002:00000260       __imp_call_sf_machine_global_method_dispatcher 0000000180015260     sf_runtime:sf_runtime.dll
+ 0002:00000268       __imp_callMdlMethodAndReportError 0000000180015268     sf_runtime:sf_runtime.dll
+ 0002:00000270       __imp_sf_set_compiledInfo  0000000180015270     sf_runtime:sf_runtime.dll
+ 0002:00000278       __imp_sf_get_isEnhancedMooreMachine 0000000180015278     sf_runtime:sf_runtime.dll
+ 0002:00000280       __imp_sf_get_ChartInfoStruct_CodeGen 0000000180015280     sf_runtime:sf_runtime.dll
+ 0002:00000288       __imp_sf_debug_cv_init_state 0000000180015288     sf_runtime:sf_runtime.dll
+ 0002:00000290       __imp_sf_debug_cv_init_chart 0000000180015290     sf_runtime:sf_runtime.dll
+ 0002:00000298       __imp_sf_debug_cv_init_trans 0000000180015298     sf_runtime:sf_runtime.dll
+ 0002:000002a0       __imp_sf_debug_data_range_wrapper 00000001800152a0     sf_runtime:sf_runtime.dll
+ 0002:000002a8       __imp_sf_debug_terminate   00000001800152a8     sf_runtime:sf_runtime.dll
+ 0002:000002b0       __imp_sf_debug_set_chart_decomposition 00000001800152b0     sf_runtime:sf_runtime.dll
+ 0002:000002b8       __imp_sf_debug_set_chart_state_info 00000001800152b8     sf_runtime:sf_runtime.dll
+ 0002:000002c0       __imp_sf_debug_set_chart_event_thresholds 00000001800152c0     sf_runtime:sf_runtime.dll
+ 0002:000002c8       __imp_sf_debug_set_chart_disable_implicit_casting 00000001800152c8     sf_runtime:sf_runtime.dll
+ 0002:000002d0       __imp_sf_debug_set_instance_data_value_ptr 00000001800152d0     sf_runtime:sf_runtime.dll
+ 0002:000002d8       __imp_sf_debug_symbol_scope_add_eml_importable 00000001800152d8     sf_runtime:sf_runtime.dll
+ 0002:000002e0       __imp_sf_debug_symbol_scope_add_eml 00000001800152e0     sf_runtime:sf_runtime.dll
+ 0002:000002e8       __imp_sf_debug_symbol_scope_pop 00000001800152e8     sf_runtime:sf_runtime.dll
+ 0002:000002f0       __imp_sf_debug_symbol_scope_push_eml 00000001800152f0     sf_runtime:sf_runtime.dll
+ 0002:000002f8       __imp_sf_debug_symbol_scope_push 00000001800152f8     sf_runtime:sf_runtime.dll
+ 0002:00000300       __imp_sf_debug_set_chart_data_compiled_props 0000000180015300     sf_runtime:sf_runtime.dll
+ 0002:00000308       __imp_sf_debug_set_chart_data_props 0000000180015308     sf_runtime:sf_runtime.dll
+ 0002:00000310       __imp_sf_debug_api         0000000180015310     sf_runtime:sf_runtime.dll
+ 0002:00000318       __imp_sf_debug_set_chart_substate_count 0000000180015318     sf_runtime:sf_runtime.dll
+ 0002:00000320       __imp_sf_debug_check_for_state_inconsistency 0000000180015320     sf_runtime:sf_runtime.dll
+ 0002:00000328       __imp_sf_debug_reset_current_state_configuration 0000000180015328     sf_runtime:sf_runtime.dll
+ 0002:00000330       __imp_cv_eml_init_fcn      0000000180015330     sf_runtime:sf_runtime.dll
+ 0002:00000338       __imp_cv_eml_init_script   0000000180015338     sf_runtime:sf_runtime.dll
+ 0002:00000340       __imp_cv_eml_eval          0000000180015340     sf_runtime:sf_runtime.dll
+ 0002:00000348       __imp_eml_debug_line_call  0000000180015348     sf_runtime:sf_runtime.dll
+ 0002:00000350       __imp_sf_debug_call        0000000180015350     sf_runtime:sf_runtime.dll
+ 0002:00000358       __imp_sf_debug_initialize_chart 0000000180015358     sf_runtime:sf_runtime.dll
+ 0002:00000360       __imp_ssGetOutputPortSignal_wrapper 0000000180015360     sf_runtime:sf_runtime.dll
+ 0002:00000368       __imp_ssGetInputPortSignal_wrapper 0000000180015368     sf_runtime:sf_runtime.dll
+ 0002:00000370       __imp_sf_mex_decode_encoded_mx_struct_array 0000000180015370     sf_runtime:sf_runtime.dll
+ 0002:00000378       __imp_sf_mex_import        0000000180015378     sf_runtime:sf_runtime.dll
+ 0002:00000380       __imp_sf_mex_destroy       0000000180015380     sf_runtime:sf_runtime.dll
+ 0002:00000388       __imp_sf_mex_dup           0000000180015388     sf_runtime:sf_runtime.dll
+ 0002:00000390       __imp_sf_mex_assign        0000000180015390     sf_runtime:sf_runtime.dll
+ 0002:00000398       __imp_sf_mex_getcell       0000000180015398     sf_runtime:sf_runtime.dll
+ 0002:000003a0       __imp_sf_mex_setcell       00000001800153a0     sf_runtime:sf_runtime.dll
+ 0002:000003a8       __imp_sf_mex_createcellmatrix 00000001800153a8     sf_runtime:sf_runtime.dll
+ 0002:000003b0       __imp_sf_mex_create        00000001800153b0     sf_runtime:sf_runtime.dll
+ 0002:000003b8       __imp_sf_mex_error_message 00000001800153b8     sf_runtime:sf_runtime.dll
+ 0002:000003c0       __imp_sf_mex_call_debug    00000001800153c0     sf_runtime:sf_runtime.dll
+ 0002:000003c8       __imp_sf_set_chart_accesses_machine_info 00000001800153c8     sf_runtime:sf_runtime.dll
+ 0002:000003d0       __imp_sf_is_first_init_cond 00000001800153d0     sf_runtime:sf_runtime.dll
+ 0002:000003d8       __imp_sf_get_time          00000001800153d8     sf_runtime:sf_runtime.dll
+ 0002:000003e0       __imp_sf_set_rtw_dwork_info 00000001800153e0     sf_runtime:sf_runtime.dll
+ 0002:000003e8       __imp_sf_clear_rtw_identifier 00000001800153e8     sf_runtime:sf_runtime.dll
+ 0002:000003f0       __imp_sim_mode_is_modelref_sim 00000001800153f0     sf_runtime:sf_runtime.dll
+ 0002:000003f8       __imp_sim_mode_is_external 00000001800153f8     sf_runtime:sf_runtime.dll
+ 0002:00000400       __imp_sim_mode_is_rtw_gen  0000000180015400     sf_runtime:sf_runtime.dll
+ 0002:00000408       __imp_sf_mark_chart_expressionable_inputs 0000000180015408     sf_runtime:sf_runtime.dll
+ 0002:00000410       __imp_sf_mark_chart_reusable_outputs 0000000180015410     sf_runtime:sf_runtime.dll
+ 0002:00000418       __imp_sf_is_chart_inlinable 0000000180015418     sf_runtime:sf_runtime.dll
+ 0002:00000420       __imp_sf_update_buildInfo  0000000180015420     sf_runtime:sf_runtime.dll
+ 0002:00000428       __imp_sf_rtw_info_uint_prop 0000000180015428     sf_runtime:sf_runtime.dll
+ 0002:00000430       __imp_sf_get_chart_instance_ptr 0000000180015430     sf_runtime:sf_runtime.dll
+ 0002:00000438       __imp_sf_free_ChartRunTimeInfo 0000000180015438     sf_runtime:sf_runtime.dll
+ 0002:00000440       __imp_sf_init_ChartRunTimeInfo 0000000180015440     sf_runtime:sf_runtime.dll
+ 0002:00000448       __imp_sf_debug_set_machine_data_thresholds 0000000180015448     sf_runtime:sf_runtime.dll
+ 0002:00000450       __imp_sf_debug_set_machine_event_thresholds 0000000180015450     sf_runtime:sf_runtime.dll
+ 0002:00000458       __imp_sf_debug_initialize_machine 0000000180015458     sf_runtime:sf_runtime.dll
+ 0002:00000460       __imp_sf_load_rtw_optimization_info 0000000180015460     sf_runtime:sf_runtime.dll
+ 0002:00000468       \177sf_runtime_NULL_THUNK_DATA 0000000180015468     sf_runtime:sf_runtime.dll
+ 0002:00000470       __xc_a                     0000000180015470     MSVCRT:cinitexe.obj
+ 0002:00000478       __xc_z                     0000000180015478     MSVCRT:cinitexe.obj
+ 0002:00000480       __xi_a                     0000000180015480     MSVCRT:cinitexe.obj
+ 0002:00000498       __xi_z                     0000000180015498     MSVCRT:cinitexe.obj
+ 0002:000004a0       __real@419f655d90000000    00000001800154a0     Quan_sfun.obj
+ 0002:000004a8       __real@41c65c63bc800000    00000001800154a8     Quan_sfun.obj
+ 0002:000004b0       __real@41c7ffb9ab800000    00000001800154b0     Quan_sfun.obj
+ 0002:000004b8       __real@41d24f3a5bc00000    00000001800154b8     Quan_sfun.obj
+ 0002:000004c0       __real@41d566a660800000    00000001800154c0     Quan_sfun.obj
+ 0002:000004c8       __real@41da91fd70400000    00000001800154c8     Quan_sfun.obj
+ 0002:000004d0       __real@41db9ba3aac00000    00000001800154d0     Quan_sfun.obj
+ 0002:000004d8       __real@41e03505f3800000    00000001800154d8     Quan_sfun.obj
+ 0002:000004e0       __real@41e1575dbcc00000    00000001800154e0     Quan_sfun.obj
+ 0002:000004e8       __real@41e914a929e00000    00000001800154e8     Quan_sfun.obj
+ 0002:000004f0       __real@41e999ff15a00000    00000001800154f0     Quan_sfun.obj
+ 0002:000004f8       __real@41ebe0c608000000    00000001800154f8     Quan_sfun.obj
+ 0002:00000500       __real@3eb44ff43d492c0b    0000000180015500     c1_Quan.obj
+ 0002:00000508       __real@3ee88d7be4d79f4b    0000000180015508     c1_Quan.obj
+ 0002:00000510       __real@3eebb68f3b0a0cbd    0000000180015510     c1_Quan.obj
+ 0002:00000518       __real@3f1464cdd3c6b525    0000000180015518     c1_Quan.obj
+ 0002:00000520       __real@3f92043397b16a90    0000000180015520     c1_Quan.obj
+ 0002:00000528       __real@3f9c3573e89f008a    0000000180015528     c1_Quan.obj
+ 0002:00000530       __real@3feebba196ff132c    0000000180015530     c1_Quan.obj
+ 0002:00000538       __real@3ff0000000000000    0000000180015538     c1_Quan.obj
+ 0002:00000540       __real@401c000000000000    0000000180015540     c1_Quan.obj
+ 0002:00000548       __real@4023856472bc6d39    0000000180015548     c1_Quan.obj
+ 0002:00000550       __real@40239d013a92a305    0000000180015550     c1_Quan.obj
+ 0002:00000558       __real@4024000000000000    0000000180015558     c1_Quan.obj
+ 0002:00000560       __real@4028000000000000    0000000180015560     c1_Quan.obj
+ 0002:00000568       __real@4094cda6e978d4fe    0000000180015568     c1_Quan.obj
+ 0002:00000570       __real@40c2295260fe4799    0000000180015570     c1_Quan.obj
+ 0002:00000578       __real@40c3880000000000    0000000180015578     c1_Quan.obj
+ 0002:00000580       __real@40c9256c1bda511a    0000000180015580     c1_Quan.obj
+ 0002:00000588       __real@40f27999b923a29c    0000000180015588     c1_Quan.obj
+ 0002:00000590       __real@40f4e30186594af5    0000000180015590     c1_Quan.obj
+ 0002:00000598       __real@41583fc780000000    0000000180015598     c1_Quan.obj
+ 0002:000005a0       __real@41d063031de7616d    00000001800155a0     c1_Quan.obj
+ 0002:000005a8       __real@41d354c782000000    00000001800155a8     c1_Quan.obj
+ 0002:000005b0       __real@41e31362e9600000    00000001800155b0     c1_Quan.obj
+ 0002:000005b8       __real@41e7e2ae00c00000    00000001800155b8     c1_Quan.obj
+ 0002:000005c0       __real@41efdd5a46800000    00000001800155c0     c1_Quan.obj
+ 0002:000005c8       __real@bfe779c0e7681453    00000001800155c8     c1_Quan.obj
+ 0002:000005d0       __real@bfe8a4d1006a8931    00000001800155d0     c1_Quan.obj
+ 0002:000005e0       __xmm@80000000000000008000000000000000 00000001800155e0     c1_Quan.obj
+ 0002:000005f0       DYNAMIC_DIMENSION_DEF      00000001800155f0     Quan_sfun_registry.obj
+ 0002:00000610       _ssBadLevel2InputAccessMsg 0000000180015610     Quan_sfun_registry.obj
+ 0002:000007a0       _ssBadLevel2DirectFeedMsg  00000001800157a0     Quan_sfun_registry.obj
+ 0002:000008e0       _ssBadLevel2DirectFeedSolutionMsg 00000001800158e0     Quan_sfun_registry.obj
+ 0002:00000950       _ssBadLevel2ZeroDirectFeedMsg 0000000180015950     Quan_sfun_registry.obj
+ 0002:00000a90       _ssBadLevel2ZeroDirectFeedMsg2 0000000180015a90     Quan_sfun_registry.obj
+ 0002:00000b78       __real@0000000000000000    0000000180015b78     Quan_sfun_registry.obj
+ 0002:00000b80       __real@41602cbca0000000    0000000180015b80     Quan_sfun_registry.obj
+ 0002:00000b88       __real@bff0000000000000    0000000180015b88     Quan_sfun_registry.obj
+ 0002:00000ba0       _pRawDllMain               0000000180015ba0     MSVCRT:crtdll.obj
+ 0002:00000ba0       _pDefaultRawDllMain        0000000180015ba0     MSVCRT:crtdll.obj
+ 0002:00000ba8       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 0000000180015ba8     MSVCRT:initsect.obj
+ 0002:00000bac       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 0000000180015bac     MSVCRT:initsect.obj
+ 0002:00000bb0       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 0000000180015bb0     MSVCRT:initsect.obj
+ 0002:00000bb4       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 0000000180015bb4     MSVCRT:initsect.obj
+ 0002:00000bb8       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 0000000180015bb8     MSVCRT:initsect.obj
+ 0002:00000bbc       ?value@?$integral_constant@_N$0A@@std@@2_NB 0000000180015bbc     MSVCRT:tncleanup.obj
+ 0002:00000bbd       ?value@?$integral_constant@_N$00@std@@2_NB 0000000180015bbd     MSVCRT:tncleanup.obj
+ 0002:00000bc0       _load_config_used          0000000180015bc0     MSVCRT:loadcfg.obj
+ 0002:00000c30       __rtc_iaa                  0000000180015c30     MSVCRT:initsect.obj
+ 0002:00000c38       __rtc_izz                  0000000180015c38     MSVCRT:initsect.obj
+ 0002:00000c40       __rtc_taa                  0000000180015c40     MSVCRT:initsect.obj
+ 0002:00000c48       __rtc_tzz                  0000000180015c48     MSVCRT:initsect.obj
+ 0002:00001410       __IMPORT_DESCRIPTOR_sf_runtime 0000000180016410     sf_runtime:sf_runtime.dll
+ 0002:00001424       __IMPORT_DESCRIPTOR_libmx  0000000180016424     libmx:libmx.dll
+ 0002:00001438       __IMPORT_DESCRIPTOR_libmex 0000000180016438     libmex:libmex.dll
+ 0002:0000144c       __IMPORT_DESCRIPTOR_libut  000000018001644c     libut:libut.dll
+ 0002:00001460       __IMPORT_DESCRIPTOR_libmwmathutil 0000000180016460     libmwmathutil:libmwmathutil.dll
+ 0002:00001474       __IMPORT_DESCRIPTOR_MSVCR120 0000000180016474     MSVCRT:MSVCR120.dll
+ 0002:00001488       __IMPORT_DESCRIPTOR_KERNEL32 0000000180016488     kernel32:KERNEL32.dll
+ 0002:0000149c       __NULL_IMPORT_DESCRIPTOR   000000018001649c     sf_runtime:sf_runtime.dll
+ 0003:00001f18       DYNAMIC_DIMENSION          0000000180019f18     Quan_sfun_registry.obj
+ 0003:000025a0       __security_cookie          000000018001a5a0     MSVCRT:gs_cookie.obj
+ 0003:000025a8       __security_cookie_complement 000000018001a5a8     MSVCRT:gs_cookie.obj
+ 0003:000025b0       _fltused                   000000018001a5b0     MSVCRT:dllsupp.obj
+ 0003:000025b4       __native_dllmain_reason    000000018001a5b4     MSVCRT:natstart.obj
+ 0003:000025e8       sfGlobalDebugInstanceStruct 000000018001a5e8     Quan_sfun_registry.obj
+ 0003:00002c38       ?__type_info_root_node@@3U__type_info_node@@A 000000018001ac38     MSVCRT:tncleanup.obj
+ 0003:00002c48       _QuanMachineNumber_        000000018001ac48     <common>
+ 0003:00002c50       __native_startup_lock      000000018001ac50     <common>
+ 0003:00002c58       __native_startup_state     000000018001ac58     <common>
+ 0003:00002c60       __onexitend                000000018001ac60     <common>
+ 0003:00002c68       __onexitbegin              000000018001ac68     <common>
+ 0003:00002c70       __dyn_tls_init_callback    000000018001ac70     <common>
+
+ entry point at        0001:00012cd4
+
+ Static symbols
+
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR120.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmathutil:libmwmathutil.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmathutil:libmwmathutil.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmathutil:libmwmathutil.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmathutil:libmwmathutil.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libut:libut.dll
+ 0000:00000000       .debug$S                   0000000180000000     libut:libut.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0001:00001220       chart_debug_initialization 0000000180002220 f   c1_Quan.obj
+ 0001:000028d0       chart_debug_initialize_data_addresses 00000001800038d0 f   c1_Quan.obj
+ 0001:00002ed0       initialize_c1_Quan         0000000180003ed0 f   c1_Quan.obj
+ 0001:00002f40       initialize_params_c1_Quan  0000000180003f40 f   c1_Quan.obj
+ 0001:00002f50       enable_c1_Quan             0000000180003f50 f   c1_Quan.obj
+ 0001:00002f80       disable_c1_Quan            0000000180003f80 f   c1_Quan.obj
+ 0001:00002fb0       c1_update_debugger_state_c1_Quan 0000000180003fb0 f   c1_Quan.obj
+ 0001:00002fc0       get_sim_state_c1_Quan      0000000180003fc0 f   c1_Quan.obj
+ 0001:00003850       set_sim_state_c1_Quan      0000000180004850 f   c1_Quan.obj
+ 0001:00003c10       finalize_c1_Quan           0000000180004c10 f   c1_Quan.obj
+ 0001:00003c20       sf_gateway_c1_Quan         0000000180004c20 f   c1_Quan.obj
+ 0001:00004770       mdl_start_c1_Quan          0000000180005770 f   c1_Quan.obj
+ 0001:00004780       c1_chartstep_c1_Quan       0000000180005780 f   c1_Quan.obj
+ 0001:000077a0       initSimStructsc1_Quan      00000001800087a0 f   c1_Quan.obj
+ 0001:000077b0       init_script_number_translation 00000001800087b0 f   c1_Quan.obj
+ 0001:000077d0       c1_sf_marshallOut          00000001800087d0 f   c1_Quan.obj
+ 0001:00007880       c1_emlrt_marshallIn        0000000180008880 f   c1_Quan.obj
+ 0001:000078f0       c1_b_emlrt_marshallIn      00000001800088f0 f   c1_Quan.obj
+ 0001:00007980       c1_sf_marshallIn           0000000180008980 f   c1_Quan.obj
+ 0001:00007a30       c1_b_sf_marshallOut        0000000180008a30 f   c1_Quan.obj
+ 0001:00007b40       c1_mpower                  0000000180008b40 f   c1_Quan.obj
+ 0001:00007bc0       c1_error                   0000000180008bc0 f   c1_Quan.obj
+ 0001:00007ca0       c1_b_error                 0000000180008ca0 f   c1_Quan.obj
+ 0001:00007df0       c1_d_emlrt_marshallIn      0000000180008df0 f   c1_Quan.obj
+ 0001:00007e60       c1_e_emlrt_marshallIn      0000000180008e60 f   c1_Quan.obj
+ 0001:00007ef0       c1_b_sqrt                  0000000180008ef0 f   c1_Quan.obj
+ 0001:00007f80       c1_b_sin                   0000000180008f80 f   c1_Quan.obj
+ 0001:00007fb0       c1_b_cos                   0000000180008fb0 f   c1_Quan.obj
+ 0001:00007fe0       c1_b_tan                   0000000180008fe0 f   c1_Quan.obj
+ 0001:00008010       init_dsm_address_info      0000000180009010 f   c1_Quan.obj
+ 0001:00008020       init_simulink_io_address   0000000180009020 f   c1_Quan.obj
+ 0001:00009f20       sf_get_sim_state_info_c1_Quan 000000018000af20 f   c1_Quan.obj
+ 0001:0000a000       sf_get_instance_specialization 000000018000b000 f   c1_Quan.obj
+ 0001:0000a010       sf_opaque_initialize_c1_Quan 000000018000b010 f   c1_Quan.obj
+ 0001:0000a050       sf_opaque_enable_c1_Quan   000000018000b050 f   c1_Quan.obj
+ 0001:0000a070       sf_opaque_disable_c1_Quan  000000018000b070 f   c1_Quan.obj
+ 0001:0000a090       sf_opaque_gateway_c1_Quan  000000018000b090 f   c1_Quan.obj
+ 0001:0000a0b0       sf_opaque_get_sim_state_c1_Quan 000000018000b0b0 f   c1_Quan.obj
+ 0001:0000a0e0       sf_opaque_set_sim_state_c1_Quan 000000018000b0e0 f   c1_Quan.obj
+ 0001:0000a110       sf_opaque_terminate_c1_Quan 000000018000b110 f   c1_Quan.obj
+ 0001:0000a1b0       mdlProcessParameters_c1_Quan 000000018000b1b0 f   c1_Quan.obj
+ 0001:0000a270       mdlSetWorkWidths_c1_Quan   000000018000b270 f   c1_Quan.obj
+ 0001:0000a9f0       mdlRTW_c1_Quan             000000018000b9f0 f   c1_Quan.obj
+ 0001:0000aa30       mdlStart_c1_Quan           000000018000ba30 f   c1_Quan.obj
+ 0001:0000bf78       $LN120                     000000018000cf78     Quan_sfun_registry.obj
+ 0001:0000dcf4       $LN17                      000000018000ecf4     Quan_sfun_registry.obj
+ 0001:0000e27c       $LN26                      000000018000f27c     Quan_sfun_registry.obj
+ 0001:0000e964       $LN23                      000000018000f964     Quan_sfun_registry.obj
+ 0001:0000ef40       $LN26                      000000018000ff40     Quan_sfun_registry.obj
+ 0001:00010b10       sf_debug_api_wrapper       0000000180011b10 f   Quan_sfun_registry.obj
+ 0001:00010b60       ProcessMexSfunctionCmdLineCall 0000000180011b60 f   Quan_sfun_registry.obj
+ 0001:00010ed0       mdlSetWorkWidths           0000000180011ed0 f   Quan_sfun_registry.obj
+ 0001:00010f00       mdlProcessParameters       0000000180011f00 f   Quan_sfun_registry.obj
+ 0001:00010f30       mdl_start_processing       0000000180011f30 f   Quan_sfun_registry.obj
+ 0001:00010fe0       mdl_terminate_processing   0000000180011fe0 f   Quan_sfun_registry.obj
+ 0001:00011060       mdlStart                   0000000180012060 f   Quan_sfun_registry.obj
+ 0001:00011090       mdlTerminate               0000000180012090 f   Quan_sfun_registry.obj
+ 0001:000110c0       mdlInitializeSizes         00000001800120c0 f   Quan_sfun_registry.obj
+ 0001:000110f0       mdlInitializeSampleTimes   00000001800120f0 f   Quan_sfun_registry.obj
+ 0001:00011120       mdl_outputs_continuous_legacy 0000000180012120 f   Quan_sfun_registry.obj
+ 0001:00011220       mdl_outputs_processing     0000000180012220 f   Quan_sfun_registry.obj
+ 0001:00011340       mdl_zeroCrossings_processing 0000000180012340 f   Quan_sfun_registry.obj
+ 0001:00011380       mdlZeroCrossings           0000000180012380 f   Quan_sfun_registry.obj
+ 0001:000113b0       mdl_derivatives_processing 00000001800123b0 f   Quan_sfun_registry.obj
+ 0001:00011400       mdlDerivatives             0000000180012400 f   Quan_sfun_registry.obj
+ 0001:00011430       mdl_initialize_conditions_processing 0000000180012430 f   Quan_sfun_registry.obj
+ 0001:00011480       mdlInitializeConditions    0000000180012480 f   Quan_sfun_registry.obj
+ 0001:000114b0       mdl_ext_mode_exec_processing 00000001800124b0 f   Quan_sfun_registry.obj
+ 0001:000114f0       mdlExtModeExec             00000001800124f0 f   Quan_sfun_registry.obj
+ 0001:00011520       mdlRTW                     0000000180012520 f   Quan_sfun_registry.obj
+ 0001:00011560       mdl_enable_processing      0000000180012560 f   Quan_sfun_registry.obj
+ 0001:000115a0       mdlEnable                  00000001800125a0 f   Quan_sfun_registry.obj
+ 0001:000115d0       mdl_disable_processing     00000001800125d0 f   Quan_sfun_registry.obj
+ 0001:00011610       mdlDisable                 0000000180012610 f   Quan_sfun_registry.obj
+ 0001:00011640       mdlOutputs                 0000000180012640 f   Quan_sfun_registry.obj
+ 0001:00011670       mdl_update_processing      0000000180012670 f   Quan_sfun_registry.obj
+ 0001:000116c0       mdlUpdate                  00000001800126c0 f   Quan_sfun_registry.obj
+ 0001:000118a0       mdlGetTimeOfNextVarHit     00000001800128a0 f   Quan_sfun_registry.obj
+ 0001:000118f0       _RegNumInputPortsCB        00000001800128f0 f   Quan_sfun_registry.obj
+ 0001:00011970       _RegNumOutputPortsCB       0000000180012970 f   Quan_sfun_registry.obj
+ 0001:000119f0       _CreateSimStruct           00000001800129f0 f   Quan_sfun_registry.obj
+ 0001:00011bd0       _ssFatalError              0000000180012bd0 f   Quan_sfun_registry.obj
+ 0001:00011ca0       _ProcessMexSfunctionCmdLineCall 0000000180012ca0 f   Quan_sfun_registry.obj
+ 0001:000129c0       $$000000                   00000001800139c0     MSVCRT:amdsecgs.obj
+ 0001:00012a1c       pre_c_init                 0000000180013a1c f   MSVCRT:crtdll.obj
+ 0001:00012d14       __DllMainCRTStartup        0000000180013d14 f   MSVCRT:crtdll.obj
+ 0001:00013230       __DllMainCRTStartup$filt$0 0000000180014230 f   MSVCRT:crtdll.obj
+ 0001:00013255       __DllMainCRTStartup$fin$1  0000000180014255 f   MSVCRT:crtdll.obj
+ 0001:00013270       _IsNonwritableInCurrentImage$filt$0 0000000180014270 f   MSVCRT:pesect.obj
+ 0001:00013290       _onexit$fin$0              0000000180014290 f   MSVCRT:atonexit.obj
+ 0002:00000488       pcinit                     0000000180015488     MSVCRT:crtdll.obj
+ 0002:00000490       pinit                      0000000180015490     MSVCRT:atonexit.obj
+ 0002:00000b90       GS_ExceptionPointers       0000000180015b90     MSVCRT:gs_report.obj
+ 0002:00000c50       $unwind$load_Quan_optimization_info 0000000180015c50     Quan_sfun.obj
+ 0002:00000c58       $unwind$unload_Quan_optimization_info 0000000180015c58     Quan_sfun.obj
+ 0002:00000c60       $unwind$sf_Quan_method_dispatcher 0000000180015c60     Quan_sfun.obj
+ 0002:00000c68       $unwind$sf_Quan_process_check_sum_call 0000000180015c68     Quan_sfun.obj
+ 0002:00000c78       $unwind$sf_Quan_autoinheritance_info 0000000180015c78     Quan_sfun.obj
+ 0002:00000c88       $unwind$sf_Quan_get_eml_resolved_functions_info 0000000180015c88     Quan_sfun.obj
+ 0002:00000c98       $unwind$sf_Quan_third_party_uses_info 0000000180015c98     Quan_sfun.obj
+ 0002:00000ca8       $unwind$sf_Quan_jit_fallback_info 0000000180015ca8     Quan_sfun.obj
+ 0002:00000cb8       $unwind$sf_Quan_updateBuildInfo_args_info 0000000180015cb8     Quan_sfun.obj
+ 0002:00000cc8       $unwind$Quan_debug_initialize 0000000180015cc8     Quan_sfun.obj
+ 0002:00000cd0       $unwind$sf_c1_Quan_get_eml_resolved_functions_info 0000000180015cd0     c1_Quan.obj
+ 0002:00000cd8       $unwind$sf_c1_Quan_get_check_sum 0000000180015cd8     c1_Quan.obj
+ 0002:00000ce0       $unwind$c1_Quan_method_dispatcher 0000000180015ce0     c1_Quan.obj
+ 0002:00000ce8       $unwind$chart_debug_initialization 0000000180015ce8     c1_Quan.obj
+ 0002:00000cf0       $unwind$chart_debug_initialize_data_addresses 0000000180015cf0     c1_Quan.obj
+ 0002:00000cf8       $unwind$initialize_c1_Quan 0000000180015cf8     c1_Quan.obj
+ 0002:00000d00       $unwind$enable_c1_Quan     0000000180015d00     c1_Quan.obj
+ 0002:00000d08       $unwind$disable_c1_Quan    0000000180015d08     c1_Quan.obj
+ 0002:00000d10       $unwind$get_sim_state_c1_Quan 0000000180015d10     c1_Quan.obj
+ 0002:00000d18       $unwind$set_sim_state_c1_Quan 0000000180015d18     c1_Quan.obj
+ 0002:00000d20       $unwind$sf_gateway_c1_Quan 0000000180015d20     c1_Quan.obj
+ 0002:00000d28       $unwind$c1_chartstep_c1_Quan 0000000180015d28     c1_Quan.obj
+ 0002:00000d38       $unwind$c1_sf_marshallOut  0000000180015d38     c1_Quan.obj
+ 0002:00000d40       $unwind$c1_emlrt_marshallIn 0000000180015d40     c1_Quan.obj
+ 0002:00000d48       $unwind$c1_b_emlrt_marshallIn 0000000180015d48     c1_Quan.obj
+ 0002:00000d50       $unwind$c1_sf_marshallIn   0000000180015d50     c1_Quan.obj
+ 0002:00000d58       $unwind$c1_b_sf_marshallOut 0000000180015d58     c1_Quan.obj
+ 0002:00000d68       $unwind$c1_mpower          0000000180015d68     c1_Quan.obj
+ 0002:00000d70       $unwind$c1_error           0000000180015d70     c1_Quan.obj
+ 0002:00000d78       $unwind$c1_b_error         0000000180015d78     c1_Quan.obj
+ 0002:00000d80       $unwind$c1_d_emlrt_marshallIn 0000000180015d80     c1_Quan.obj
+ 0002:00000d88       $unwind$c1_e_emlrt_marshallIn 0000000180015d88     c1_Quan.obj
+ 0002:00000d90       $unwind$c1_b_sqrt          0000000180015d90     c1_Quan.obj
+ 0002:00000d98       $unwind$c1_b_sin           0000000180015d98     c1_Quan.obj
+ 0002:00000da0       $unwind$c1_b_cos           0000000180015da0     c1_Quan.obj
+ 0002:00000da8       $unwind$c1_b_tan           0000000180015da8     c1_Quan.obj
+ 0002:00000db0       $unwind$init_simulink_io_address 0000000180015db0     c1_Quan.obj
+ 0002:00000db8       $unwind$sf_c1_Quan_get_post_codegen_info 0000000180015db8     c1_Quan.obj
+ 0002:00000dc0       $unwind$sf_c1_Quan_get_autoinheritance_info 0000000180015dc0     c1_Quan.obj
+ 0002:00000dd0       $unwind$sf_c1_Quan_third_party_uses_info 0000000180015dd0     c1_Quan.obj
+ 0002:00000dd8       $unwind$sf_c1_Quan_jit_fallback_info 0000000180015dd8     c1_Quan.obj
+ 0002:00000de8       $unwind$sf_c1_Quan_updateBuildInfo_args_info 0000000180015de8     c1_Quan.obj
+ 0002:00000df0       $unwind$sf_get_sim_state_info_c1_Quan 0000000180015df0     c1_Quan.obj
+ 0002:00000df8       $unwind$sf_opaque_initialize_c1_Quan 0000000180015df8     c1_Quan.obj
+ 0002:00000e00       $unwind$sf_opaque_enable_c1_Quan 0000000180015e00     c1_Quan.obj
+ 0002:00000e08       $unwind$sf_opaque_disable_c1_Quan 0000000180015e08     c1_Quan.obj
+ 0002:00000e10       $unwind$sf_opaque_gateway_c1_Quan 0000000180015e10     c1_Quan.obj
+ 0002:00000e18       $unwind$sf_opaque_get_sim_state_c1_Quan 0000000180015e18     c1_Quan.obj
+ 0002:00000e20       $unwind$sf_opaque_set_sim_state_c1_Quan 0000000180015e20     c1_Quan.obj
+ 0002:00000e28       $unwind$sf_opaque_terminate_c1_Quan 0000000180015e28     c1_Quan.obj
+ 0002:00000e30       $unwind$mdlProcessParameters_c1_Quan 0000000180015e30     c1_Quan.obj
+ 0002:00000e38       $unwind$mdlSetWorkWidths_c1_Quan 0000000180015e38     c1_Quan.obj
+ 0002:00000e40       $unwind$mdlRTW_c1_Quan     0000000180015e40     c1_Quan.obj
+ 0002:00000e48       $unwind$mdlStart_c1_Quan   0000000180015e48     c1_Quan.obj
+ 0002:00000e50       $unwind$mexFunction        0000000180015e50     Quan_sfun_registry.obj
+ 0002:00000e58       $unwind$_ssSetInputPortDirectFeedThroughFcn 0000000180015e58     Quan_sfun_registry.obj
+ 0002:00000e60       $unwind$_ssGetInputPortSignalPtrsFcn 0000000180015e60     Quan_sfun_registry.obj
+ 0002:00000e68       $unwind$_ssGetInputPortSignalFcn 0000000180015e68     Quan_sfun_registry.obj
+ 0002:00000e70       $unwind$_ssSetInputPortReusableFcn 0000000180015e70     Quan_sfun_registry.obj
+ 0002:00000e80       $unwind$_ssSetOutputPortReusableFcn 0000000180015e80     Quan_sfun_registry.obj
+ 0002:00000e90       $unwind$_ssSetSymbolicDimsSupport 0000000180015e90     Quan_sfun_registry.obj
+ 0002:00000e98       $unwind$_ssRegisterSymbolicDimsExpr 0000000180015e98     Quan_sfun_registry.obj
+ 0002:00000ea0       $unwind$_ssRegisterSymbolicDims 0000000180015ea0     Quan_sfun_registry.obj
+ 0002:00000ea8       $unwind$_ssRegisterSymbolicDimsString 0000000180015ea8     Quan_sfun_registry.obj
+ 0002:00000eb0       $unwind$_ssRegisterSymbolicDimsIntValue 0000000180015eb0     Quan_sfun_registry.obj
+ 0002:00000eb8       $unwind$_ssRegisterSymbolicDimsPlus 0000000180015eb8     Quan_sfun_registry.obj
+ 0002:00000ec0       $unwind$_ssRegisterSymbolicDimsMinus 0000000180015ec0     Quan_sfun_registry.obj
+ 0002:00000ec8       $unwind$_ssRegisterSymbolicDimsMultiply 0000000180015ec8     Quan_sfun_registry.obj
+ 0002:00000ed0       $unwind$_ssRegisterSymbolicDimsDivide 0000000180015ed0     Quan_sfun_registry.obj
+ 0002:00000ed8       $unwind$_ssGetNumSymbolicDims 0000000180015ed8     Quan_sfun_registry.obj
+ 0002:00000ee0       $unwind$_ssGetSymbolicDim  0000000180015ee0     Quan_sfun_registry.obj
+ 0002:00000ee8       $unwind$_ssSetInputPortSymbolicDimsId 0000000180015ee8     Quan_sfun_registry.obj
+ 0002:00000ef0       $unwind$_ssGetCompInputPortSymbolicDimsId 0000000180015ef0     Quan_sfun_registry.obj
+ 0002:00000ef8       $unwind$_ssSetCompInputPortSymbolicDimsId 0000000180015ef8     Quan_sfun_registry.obj
+ 0002:00000f00       $unwind$_ssSetOutputPortSymbolicDimsId 0000000180015f00     Quan_sfun_registry.obj
+ 0002:00000f08       $unwind$_ssGetCompOutputPortSymbolicDimsId 0000000180015f08     Quan_sfun_registry.obj
+ 0002:00000f10       $unwind$_ssSetCompOutputPortSymbolicDimsId 0000000180015f10     Quan_sfun_registry.obj
+ 0002:00000f18       $unwind$_ssSetCompDWorkSymbolicDimsId 0000000180015f18     Quan_sfun_registry.obj
+ 0002:00000f20       $unwind$ssGetIsZeroCrossControlDisabled 0000000180015f20     Quan_sfun_registry.obj
+ 0002:00000f28       $unwind$ssSetIsInputPortUsedForContZcSignal 0000000180015f28     Quan_sfun_registry.obj
+ 0002:00000f30       $unwind$ssSetZcSignalIsZcElementDisc 0000000180015f30     Quan_sfun_registry.obj
+ 0002:00000f40       $unwind$ssSetZcSignalName  0000000180015f40     Quan_sfun_registry.obj
+ 0002:00000f48       $unwind$ssSetZcSignalWidth 0000000180015f48     Quan_sfun_registry.obj
+ 0002:00000f50       $unwind$ssSetZcSignalZcEventType 0000000180015f50     Quan_sfun_registry.obj
+ 0002:00000f58       $unwind$ssSetZcSignalType  0000000180015f58     Quan_sfun_registry.obj
+ 0002:00000f60       $unwind$ssSetZcSignalZcTol 0000000180015f60     Quan_sfun_registry.obj
+ 0002:00000f68       $unwind$ssSetZcSignalNeedsEventNotification 0000000180015f68     Quan_sfun_registry.obj
+ 0002:00000f70       $unwind$ssCreateAndAddZcSignalInfo 0000000180015f70     Quan_sfun_registry.obj
+ 0002:00000f78       $unwind$ssCloneAndAddZcSignalInfo 0000000180015f78     Quan_sfun_registry.obj
+ 0002:00000f80       $unwind$ssGetNumZcSignals  0000000180015f80     Quan_sfun_registry.obj
+ 0002:00000f88       $unwind$ssGetZcSignalVector 0000000180015f88     Quan_sfun_registry.obj
+ 0002:00000f90       $unwind$ssGetZcSignalName  0000000180015f90     Quan_sfun_registry.obj
+ 0002:00000f98       $unwind$ssGetZcSignalWidth 0000000180015f98     Quan_sfun_registry.obj
+ 0002:00000fa0       $unwind$ssGetZcSignalZcEventType 0000000180015fa0     Quan_sfun_registry.obj
+ 0002:00000fa8       $unwind$ssGetZcSignalZcEvents 0000000180015fa8     Quan_sfun_registry.obj
+ 0002:00000fb0       $unwind$ssGetZcSignalType  0000000180015fb0     Quan_sfun_registry.obj
+ 0002:00000fb8       $unwind$ssGetZcSignalZcTol 0000000180015fb8     Quan_sfun_registry.obj
+ 0002:00000fc0       $unwind$ssGetZcSignalNeedsEventNotification 0000000180015fc0     Quan_sfun_registry.obj
+ 0002:00000fc8       $unwind$ssGetZcSignalIsZcElementDisc 0000000180015fc8     Quan_sfun_registry.obj
+ 0002:00000fd8       $unwind$ssGetIsInputPortElementContinuous 0000000180015fd8     Quan_sfun_registry.obj
+ 0002:00000fe8       $unwind$ssGetDTypeIdFromMxArray 0000000180015fe8     Quan_sfun_registry.obj
+ 0002:00000ff0       $unwind$ssWriteRTWStr      0000000180015ff0     Quan_sfun_registry.obj
+ 0002:00000ff8       $unwind$ssWriteRTWNameValuePair 0000000180015ff8     Quan_sfun_registry.obj
+ 0002:00001000       $unwind$ssWriteRTWParamSettings 0000000180016000     Quan_sfun_registry.obj
+ 0002:00001008       $unwind$ssWriteRTWParameters 0000000180016008     Quan_sfun_registry.obj
+ 0002:00001010       $unwind$ssWriteRTWWorkVect 0000000180016010     Quan_sfun_registry.obj
+ 0002:00001024       $unwind$ssWriteRTWMxVectParam 0000000180016024     Quan_sfun_registry.obj
+ 0002:0000102c       $unwind$ssWriteRTWMx2dMatParam 000000018001602c     Quan_sfun_registry.obj
+ 0002:00001034       $unwind$_ssSetInputPortMatrixDimensions 0000000180016034     Quan_sfun_registry.obj
+ 0002:00001040       $unwind$_ssSetOutputPortMatrixDimensions 0000000180016040     Quan_sfun_registry.obj
+ 0002:0000104c       $unwind$_ssSetInputPortVectorDimension 000000018001604c     Quan_sfun_registry.obj
+ 0002:00001058       $unwind$_ssSetOutputPortVectorDimension 0000000180016058     Quan_sfun_registry.obj
+ 0002:00001064       $unwind$ssIsRunTimeParamTunable 0000000180016064     Quan_sfun_registry.obj
+ 0002:0000106c       $unwind$ssGetSFuncBlockHandle 000000018001606c     Quan_sfun_registry.obj
+ 0002:00001074       $unwind$_ssGetCurrentInputPortWidth 0000000180016074     Quan_sfun_registry.obj
+ 0002:0000107c       $unwind$_ssGetCurrentOutputPortWidth 000000018001607c     Quan_sfun_registry.obj
+ 0002:00001084       $unwind$_ssGetCallSystemNumFcnCallDestinations 0000000180016084     Quan_sfun_registry.obj
+ 0002:0000108c       $unwind$ssGetParameterTuningCompliance 000000018001608c     Quan_sfun_registry.obj
+ 0002:00001094       $unwind$ssWarning          0000000180016094     Quan_sfun_registry.obj
+ 0002:000010a8       $unwind$_ssGetAbsTol       00000001800160a8     Quan_sfun_registry.obj
+ 0002:000010b0       $unwind$sf_process_check_sum_call 00000001800160b0     Quan_sfun_registry.obj
+ 0002:000010b8       $unwind$sf_process_autoinheritance_call 00000001800160b8     Quan_sfun_registry.obj
+ 0002:000010c8       $unwind$sf_process_get_third_party_uses_info_call 00000001800160c8     Quan_sfun_registry.obj
+ 0002:000010d8       $unwind$sf_process_get_jit_fallback_info_call 00000001800160d8     Quan_sfun_registry.obj
+ 0002:000010e8       $unwind$sf_process_get_updateBuildInfo_args_info_call 00000001800160e8     Quan_sfun_registry.obj
+ 0002:000010f8       $unwind$sf_process_get_eml_resolved_functions_info_call 00000001800160f8     Quan_sfun_registry.obj
+ 0002:00001108       $unwind$sf_mex_unlock_call 0000000180016108     Quan_sfun_registry.obj
+ 0002:00001118       $unwind$sf_debug_api_wrapper 0000000180016118     Quan_sfun_registry.obj
+ 0002:00001120       $unwind$ProcessMexSfunctionCmdLineCall 0000000180016120     Quan_sfun_registry.obj
+ 0002:00001128       $unwind$sf_machine_global_initializer_called 0000000180016128     Quan_sfun_registry.obj
+ 0002:00001130       $unwind$sf_machine_global_method_dispatcher 0000000180016130     Quan_sfun_registry.obj
+ 0002:00001138       $unwind$sf_machine_global_terminator 0000000180016138     Quan_sfun_registry.obj
+ 0002:00001140       $unwind$sf_register_machine_exported_symbols 0000000180016140     Quan_sfun_registry.obj
+ 0002:00001148       $unwind$sf_machine_global_initializer 0000000180016148     Quan_sfun_registry.obj
+ 0002:00001150       $unwind$mdlGetSimState     0000000180016150     Quan_sfun_registry.obj
+ 0002:00001158       $unwind$mdlSetSimState     0000000180016158     Quan_sfun_registry.obj
+ 0002:00001160       $unwind$mdlSetWorkWidths   0000000180016160     Quan_sfun_registry.obj
+ 0002:00001168       $unwind$mdlProcessParameters 0000000180016168     Quan_sfun_registry.obj
+ 0002:00001170       $unwind$mdl_start_processing 0000000180016170     Quan_sfun_registry.obj
+ 0002:00001178       $unwind$mdl_terminate_processing 0000000180016178     Quan_sfun_registry.obj
+ 0002:00001180       $unwind$mdlStart           0000000180016180     Quan_sfun_registry.obj
+ 0002:00001188       $unwind$mdlTerminate       0000000180016188     Quan_sfun_registry.obj
+ 0002:00001190       $unwind$mdlInitializeSizes 0000000180016190     Quan_sfun_registry.obj
+ 0002:00001198       $unwind$mdlInitializeSampleTimes 0000000180016198     Quan_sfun_registry.obj
+ 0002:000011a0       $unwind$mdl_outputs_continuous_legacy 00000001800161a0     Quan_sfun_registry.obj
+ 0002:000011a8       $unwind$mdl_outputs_processing 00000001800161a8     Quan_sfun_registry.obj
+ 0002:000011b0       $unwind$mdl_zeroCrossings_processing 00000001800161b0     Quan_sfun_registry.obj
+ 0002:000011b8       $unwind$mdlZeroCrossings   00000001800161b8     Quan_sfun_registry.obj
+ 0002:000011c0       $unwind$mdl_derivatives_processing 00000001800161c0     Quan_sfun_registry.obj
+ 0002:000011c8       $unwind$mdlDerivatives     00000001800161c8     Quan_sfun_registry.obj
+ 0002:000011d0       $unwind$mdl_initialize_conditions_processing 00000001800161d0     Quan_sfun_registry.obj
+ 0002:000011d8       $unwind$mdlInitializeConditions 00000001800161d8     Quan_sfun_registry.obj
+ 0002:000011e0       $unwind$mdl_ext_mode_exec_processing 00000001800161e0     Quan_sfun_registry.obj
+ 0002:000011e8       $unwind$mdlExtModeExec     00000001800161e8     Quan_sfun_registry.obj
+ 0002:000011f0       $unwind$mdlRTW             00000001800161f0     Quan_sfun_registry.obj
+ 0002:000011f8       $unwind$mdl_enable_processing 00000001800161f8     Quan_sfun_registry.obj
+ 0002:00001200       $unwind$mdlEnable          0000000180016200     Quan_sfun_registry.obj
+ 0002:00001208       $unwind$mdl_disable_processing 0000000180016208     Quan_sfun_registry.obj
+ 0002:00001210       $unwind$mdlDisable         0000000180016210     Quan_sfun_registry.obj
+ 0002:00001218       $unwind$mdlOutputs         0000000180016218     Quan_sfun_registry.obj
+ 0002:00001220       $unwind$mdl_update_processing 0000000180016220     Quan_sfun_registry.obj
+ 0002:00001228       $unwind$mdlUpdate          0000000180016228     Quan_sfun_registry.obj
+ 0002:00001230       $unwind$ProcessMexSfunctionEveryCall 0000000180016230     Quan_sfun_registry.obj
+ 0002:00001238       $unwind$_RegNumInputPortsCB 0000000180016238     Quan_sfun_registry.obj
+ 0002:00001240       $unwind$_RegNumOutputPortsCB 0000000180016240     Quan_sfun_registry.obj
+ 0002:00001248       $unwind$_CreateSimStruct   0000000180016248     Quan_sfun_registry.obj
+ 0002:00001250       $unwind$_ssFatalError      0000000180016250     Quan_sfun_registry.obj
+ 0002:00001260       $unwind$_ProcessMexSfunctionCmdLineCall 0000000180016260     Quan_sfun_registry.obj
+ 0002:00001270       $unwind$__report_securityfailure 0000000180016270     MSVCRT:gs_report.obj
+ 0002:00001278       $unwind$__report_securityfailureEx 0000000180016278     MSVCRT:gs_report.obj
+ 0002:00001280       $unwind$__report_rangecheckfailure 0000000180016280     MSVCRT:gs_report.obj
+ 0002:00001288       $unwind$__raise_securityfailure 0000000180016288     MSVCRT:gs_report.obj
+ 0002:00001290       $unwind$__report_gsfailure 0000000180016290     MSVCRT:gs_report.obj
+ 0002:00001298       $unwind$__GSHandlerCheckCommon 0000000180016298     MSVCRT:gshandler.obj
+ 0002:000012a0       $unwind$__GSHandlerCheck   00000001800162a0     MSVCRT:gshandler.obj
+ 0002:000012a8       $xdatasym                  00000001800162a8     MSVCRT:amdsecgs.obj
+ 0002:000012ac       $unwind$_CRT_INIT          00000001800162ac     MSVCRT:crtdll.obj
+ 0002:000012c8       $unwind$pre_c_init         00000001800162c8     MSVCRT:crtdll.obj
+ 0002:000012d0       $unwind$__DllMainCRTStartup 00000001800162d0     MSVCRT:crtdll.obj
+ 0002:0000130c       $unwind$__DllMainCRTStartup$filt$0 000000018001630c     MSVCRT:crtdll.obj
+ 0002:00001314       $unwind$__DllMainCRTStartup$fin$1 0000000180016314     MSVCRT:crtdll.obj
+ 0002:0000131c       $unwind$_DllMainCRTStartup 000000018001631c     MSVCRT:crtdll.obj
+ 0002:0000132c       $unwind$_IsNonwritableInCurrentImage 000000018001632c     MSVCRT:pesect.obj
+ 0002:00001350       $unwind$_IsNonwritableInCurrentImage$filt$0 0000000180016350     MSVCRT:pesect.obj
+ 0002:00001358       $unwind$atexit             0000000180016358     MSVCRT:atonexit.obj
+ 0002:00001360       $unwind$_onexit            0000000180016360     MSVCRT:atonexit.obj
+ 0002:00001380       $unwind$_onexit$fin$0      0000000180016380     MSVCRT:atonexit.obj
+ 0002:00001388       $unwind$__atonexitinit     0000000180016388     MSVCRT:atonexit.obj
+ 0002:00001390       $unwind$__security_init_cookie 0000000180016390     MSVCRT:gs_support.obj
+ 0002:0000139c       $unwind$DllMain            000000018001639c     MSVCRT:dllmain.obj
+ 0002:000013a4       $unwind$_RTC_Initialize    00000001800163a4     MSVCRT:initsect.obj
+ 0002:000013b0       $unwind$_RTC_Terminate     00000001800163b0     MSVCRT:initsect.obj
+ 0002:000013c0       .edata                     00000001800163c0     Quan_sfun.exp
+ 0002:000013e8       rgpv                       00000001800163e8     Quan_sfun.exp
+ 0002:000013ec       rgszName                   00000001800163ec     Quan_sfun.exp
+ 0002:000013f0       rgwOrd                     00000001800163f0     Quan_sfun.exp
+ 0002:000013f2       szName                     00000001800163f2     Quan_sfun.exp
+ 0002:00001403       $N00001                    0000000180016403     Quan_sfun.exp
+ 0002:000020b6       .idata$6                   00000001800170b6     sf_runtime:sf_runtime.dll
+ 0002:0000222e       .idata$6                   000000018001722e     libmx:libmx.dll
+ 0002:000022b0       .idata$6                   00000001800172b0     libmex:libmex.dll
+ 0002:000022d2       .idata$6                   00000001800172d2     libut:libut.dll
+ 0002:0000232e       .idata$6                   000000018001732e     libmwmathutil:libmwmathutil.dll
+ 0002:00002412       .idata$6                   0000000180017412     MSVCRT:MSVCR120.dll
+ 0002:000025a8       .idata$6                   00000001800175a8     kernel32:KERNEL32.dll
+ 0003:00000000       $SG17428                   0000000180018000     Quan_sfun.obj
+ 0003:00000020       $SG17437                   0000000180018020     Quan_sfun.obj
+ 0003:00000038       $SG17462                   0000000180018038     Quan_sfun.obj
+ 0003:00000050       $SG17471                   0000000180018050     Quan_sfun.obj
+ 0003:00000068       $SG17496                   0000000180018068     Quan_sfun.obj
+ 0003:00000088       $SG17505                   0000000180018088     Quan_sfun.obj
+ 0003:000000a0       $SG17513                   00000001800180a0     Quan_sfun.obj
+ 0003:000000a8       $SG17514                   00000001800180a8     Quan_sfun.obj
+ 0003:000000b0       $SG17539                   00000001800180b0     Quan_sfun.obj
+ 0003:000000b8       $SG17540                   00000001800180b8     Quan_sfun.obj
+ 0003:000000c0       $SG17274                   00000001800180c0     Quan_sfun.obj
+ 0003:000000d8       $SG17280                   00000001800180d8     Quan_sfun.obj
+ 0003:000000e0       $SG17291                   00000001800180e0     Quan_sfun.obj
+ 0003:000000ec       $SG17302                   00000001800180ec     Quan_sfun.obj
+ 0003:000000f4       $SG17324                   00000001800180f4     Quan_sfun.obj
+ 0003:00000100       $SG17361                   0000000180018100     Quan_sfun.obj
+ 0003:00000120       $SG17373                   0000000180018120     Quan_sfun.obj
+ 0003:00000138       $SG17394                   0000000180018138     Quan_sfun.obj
+ 0003:00000160       $SG18432                   0000000180018160     c1_Quan.obj
+ 0003:00000168       $SG18433                   0000000180018168     c1_Quan.obj
+ 0003:0000017c       $SG18434                   000000018001817c     c1_Quan.obj
+ 0003:00000184       $SG18442                   0000000180018184     c1_Quan.obj
+ 0003:0000018c       $SG18533                   000000018001818c     c1_Quan.obj
+ 0003:00000194       $SG18556                   0000000180018194     c1_Quan.obj
+ 0003:00000198       $SG18435                   0000000180018198     c1_Quan.obj
+ 0003:000001a4       $SG18438                   00000001800181a4     c1_Quan.obj
+ 0003:000001ac       $SG18440                   00000001800181ac     c1_Quan.obj
+ 0003:000001b4       $SG18441                   00000001800181b4     c1_Quan.obj
+ 0003:000001bc       $SG18443                   00000001800181bc     c1_Quan.obj
+ 0003:000001c4       $SG17562                   00000001800181c4     c1_Quan.obj
+ 0003:000001c8       $SG18444                   00000001800181c8     c1_Quan.obj
+ 0003:000001dc       $SG18448                   00000001800181dc     c1_Quan.obj
+ 0003:000001e4       $SG17564                   00000001800181e4     c1_Quan.obj
+ 0003:000001e8       $SG18445                   00000001800181e8     c1_Quan.obj
+ 0003:000001fc       $SG18447                   00000001800181fc     c1_Quan.obj
+ 0003:00000204       $SG18458                   0000000180018204     c1_Quan.obj
+ 0003:0000020c       $SG17566                   000000018001820c     c1_Quan.obj
+ 0003:00000210       $SG18449                   0000000180018210     c1_Quan.obj
+ 0003:00000224       $SG18450                   0000000180018224     c1_Quan.obj
+ 0003:0000022c       $SG18459                   000000018001822c     c1_Quan.obj
+ 0003:00000234       $SG17568                   0000000180018234     c1_Quan.obj
+ 0003:00000238       $SG18451                   0000000180018238     c1_Quan.obj
+ 0003:00000244       $SG18454                   0000000180018244     c1_Quan.obj
+ 0003:0000024c       $SG18456                   000000018001824c     c1_Quan.obj
+ 0003:00000254       $SG18457                   0000000180018254     c1_Quan.obj
+ 0003:0000025c       $SG18464                   000000018001825c     c1_Quan.obj
+ 0003:00000264       $SG17570                   0000000180018264     c1_Quan.obj
+ 0003:00000268       $SG18460                   0000000180018268     c1_Quan.obj
+ 0003:0000027c       $SG18474                   000000018001827c     c1_Quan.obj
+ 0003:00000284       $SG17572                   0000000180018284     c1_Quan.obj
+ 0003:00000288       $SG18461                   0000000180018288     c1_Quan.obj
+ 0003:0000029c       $SG18463                   000000018001829c     c1_Quan.obj
+ 0003:000002a4       $SG18475                   00000001800182a4     c1_Quan.obj
+ 0003:000002ac       $SG17574                   00000001800182ac     c1_Quan.obj
+ 0003:000002b0       $SG18465                   00000001800182b0     c1_Quan.obj
+ 0003:000002c4       $SG18466                   00000001800182c4     c1_Quan.obj
+ 0003:000002cc       $SG18480                   00000001800182cc     c1_Quan.obj
+ 0003:000002d4       $SG17576                   00000001800182d4     c1_Quan.obj
+ 0003:000002d8       $SG18467                   00000001800182d8     c1_Quan.obj
+ 0003:000002e4       $SG18470                   00000001800182e4     c1_Quan.obj
+ 0003:000002ec       $SG18472                   00000001800182ec     c1_Quan.obj
+ 0003:000002f4       $SG18473                   00000001800182f4     c1_Quan.obj
+ 0003:000002fc       $SG18490                   00000001800182fc     c1_Quan.obj
+ 0003:00000304       $SG17578                   0000000180018304     c1_Quan.obj
+ 0003:00000308       $SG18476                   0000000180018308     c1_Quan.obj
+ 0003:0000031c       $SG18491                   000000018001831c     c1_Quan.obj
+ 0003:00000324       $SG17580                   0000000180018324     c1_Quan.obj
+ 0003:00000328       $SG18477                   0000000180018328     c1_Quan.obj
+ 0003:0000033c       $SG18479                   000000018001833c     c1_Quan.obj
+ 0003:00000344       $SG18496                   0000000180018344     c1_Quan.obj
+ 0003:0000034c       $SG17582                   000000018001834c     c1_Quan.obj
+ 0003:00000350       $SG18481                   0000000180018350     c1_Quan.obj
+ 0003:00000364       $SG18482                   0000000180018364     c1_Quan.obj
+ 0003:0000036c       $SG18506                   000000018001836c     c1_Quan.obj
+ 0003:00000374       $SG17584                   0000000180018374     c1_Quan.obj
+ 0003:00000378       $SG18483                   0000000180018378     c1_Quan.obj
+ 0003:00000384       $SG18486                   0000000180018384     c1_Quan.obj
+ 0003:0000038c       $SG18488                   000000018001838c     c1_Quan.obj
+ 0003:00000394       $SG18489                   0000000180018394     c1_Quan.obj
+ 0003:0000039c       $SG18507                   000000018001839c     c1_Quan.obj
+ 0003:000003a4       $SG17586                   00000001800183a4     c1_Quan.obj
+ 0003:000003a8       $SG18492                   00000001800183a8     c1_Quan.obj
+ 0003:000003bc       $SG18512                   00000001800183bc     c1_Quan.obj
+ 0003:000003c4       $SG18612                   00000001800183c4     c1_Quan.obj
+ 0003:000003c8       $SG18493                   00000001800183c8     c1_Quan.obj
+ 0003:000003dc       $SG18495                   00000001800183dc     c1_Quan.obj
+ 0003:000003e4       $SG18522                   00000001800183e4     c1_Quan.obj
+ 0003:000003ec       $SG18613                   00000001800183ec     c1_Quan.obj
+ 0003:000003f0       $SG18497                   00000001800183f0     c1_Quan.obj
+ 0003:00000404       $SG18498                   0000000180018404     c1_Quan.obj
+ 0003:0000040c       $SG18523                   000000018001840c     c1_Quan.obj
+ 0003:00000414       $SG18614                   0000000180018414     c1_Quan.obj
+ 0003:00000418       $SG18499                   0000000180018418     c1_Quan.obj
+ 0003:00000424       $SG18502                   0000000180018424     c1_Quan.obj
+ 0003:0000042c       $SG18504                   000000018001842c     c1_Quan.obj
+ 0003:00000434       $SG18505                   0000000180018434     c1_Quan.obj
+ 0003:0000043c       $SG18528                   000000018001843c     c1_Quan.obj
+ 0003:00000444       $SG18615                   0000000180018444     c1_Quan.obj
+ 0003:00000448       $SG18508                   0000000180018448     c1_Quan.obj
+ 0003:0000045c       $SG18616                   000000018001845c     c1_Quan.obj
+ 0003:00000460       $SG18509                   0000000180018460     c1_Quan.obj
+ 0003:00000474       $SG18511                   0000000180018474     c1_Quan.obj
+ 0003:0000047c       $SG18617                   000000018001847c     c1_Quan.obj
+ 0003:00000480       $SG18513                   0000000180018480     c1_Quan.obj
+ 0003:00000494       $SG18514                   0000000180018494     c1_Quan.obj
+ 0003:0000049c       $SG17593                   000000018001849c     c1_Quan.obj
+ 0003:000004a4       $SG17595                   00000001800184a4     c1_Quan.obj
+ 0003:000004a8       $SG18515                   00000001800184a8     c1_Quan.obj
+ 0003:000004b4       $SG18518                   00000001800184b4     c1_Quan.obj
+ 0003:000004bc       $SG18520                   00000001800184bc     c1_Quan.obj
+ 0003:000004c4       $SG18521                   00000001800184c4     c1_Quan.obj
+ 0003:000004cc       $SG18618                   00000001800184cc     c1_Quan.obj
+ 0003:000004d4       $SG18620                   00000001800184d4     c1_Quan.obj
+ 0003:000004d8       $SG18524                   00000001800184d8     c1_Quan.obj
+ 0003:000004ec       $SG17594                   00000001800184ec     c1_Quan.obj
+ 0003:000004f4       $SG17596                   00000001800184f4     c1_Quan.obj
+ 0003:000004f8       $SG18525                   00000001800184f8     c1_Quan.obj
+ 0003:0000050c       $SG18527                   000000018001850c     c1_Quan.obj
+ 0003:00000514       $SG18619                   0000000180018514     c1_Quan.obj
+ 0003:0000051c       $SG18621                   000000018001851c     c1_Quan.obj
+ 0003:00000520       $SG18529                   0000000180018520     c1_Quan.obj
+ 0003:00000534       $SG18530                   0000000180018534     c1_Quan.obj
+ 0003:0000053c       $SG17597                   000000018001853c     c1_Quan.obj
+ 0003:00000544       $SG18622                   0000000180018544     c1_Quan.obj
+ 0003:00000548       $SG18531                   0000000180018548     c1_Quan.obj
+ 0003:00000554       $SG18623                   0000000180018554     c1_Quan.obj
+ 0003:00000558       $SG18532                   0000000180018558     c1_Quan.obj
+ 0003:00000560       $SG18535                   0000000180018560     c1_Quan.obj
+ 0003:00000570       $SG18544                   0000000180018570     c1_Quan.obj
+ 0003:00000580       $SG18545                   0000000180018580     c1_Quan.obj
+ 0003:00000590       $SG18546                   0000000180018590     c1_Quan.obj
+ 0003:000005a0       $SG18547                   00000001800185a0     c1_Quan.obj
+ 0003:000005b0       $SG18548                   00000001800185b0     c1_Quan.obj
+ 0003:000005c4       $SG17599                   00000001800185c4     c1_Quan.obj
+ 0003:000005c8       $SG18549                   00000001800185c8     c1_Quan.obj
+ 0003:000005dc       $SG18624                   00000001800185dc     c1_Quan.obj
+ 0003:000005e0       $SG18550                   00000001800185e0     c1_Quan.obj
+ 0003:000005f8       $SG18551                   00000001800185f8     c1_Quan.obj
+ 0003:00000610       $SG18552                   0000000180018610     c1_Quan.obj
+ 0003:00000624       $SG17600                   0000000180018624     c1_Quan.obj
+ 0003:00000628       $SG18553                   0000000180018628     c1_Quan.obj
+ 0003:0000063c       $SG17601                   000000018001863c     c1_Quan.obj
+ 0003:00000640       $SG18558                   0000000180018640     c1_Quan.obj
+ 0003:00000650       $SG18560                   0000000180018650     c1_Quan.obj
+ 0003:00000658       $SG18572                   0000000180018658     c1_Quan.obj
+ 0003:0000067c       $SG17598                   000000018001867c     c1_Quan.obj
+ 0003:00000684       $SG17602                   0000000180018684     c1_Quan.obj
+ 0003:00000688       $SG18573                   0000000180018688     c1_Quan.obj
+ 0003:000006ac       $SG18625                   00000001800186ac     c1_Quan.obj
+ 0003:000006b4       $SG17605                   00000001800186b4     c1_Quan.obj
+ 0003:000006b8       $SG18574                   00000001800186b8     c1_Quan.obj
+ 0003:000006d4       $SG17606                   00000001800186d4     c1_Quan.obj
+ 0003:000006d8       $SG18575                   00000001800186d8     c1_Quan.obj
+ 0003:000006f4       $SG17607                   00000001800186f4     c1_Quan.obj
+ 0003:000006f8       $SG18582                   00000001800186f8     c1_Quan.obj
+ 0003:0000071c       $SG18627                   000000018001871c     c1_Quan.obj
+ 0003:00000724       $SG17608                   0000000180018724     c1_Quan.obj
+ 0003:00000728       $SG18583                   0000000180018728     c1_Quan.obj
+ 0003:00000744       $SG17916                   0000000180018744     c1_Quan.obj
+ 0003:00000748       $SG18588                   0000000180018748     c1_Quan.obj
+ 0003:00000758       $SG18589                   0000000180018758     c1_Quan.obj
+ 0003:00000768       $SG18590                   0000000180018768     c1_Quan.obj
+ 0003:00000770       $SG18591                   0000000180018770     c1_Quan.obj
+ 0003:00000778       $SG18626                   0000000180018778     c1_Quan.obj
+ 0003:00000780       $SG18594                   0000000180018780     c1_Quan.obj
+ 0003:00000888       $SG17603                   0000000180018888     c1_Quan.obj
+ 0003:00000890       $SG18595                   0000000180018890     c1_Quan.obj
+ 0003:00000998       $SG18628                   0000000180018998     c1_Quan.obj
+ 0003:000009a0       $SG18596                   00000001800189a0     c1_Quan.obj
+ 0003:00000a18       $SG17604                   0000000180018a18     c1_Quan.obj
+ 0003:00000a20       $SG18597                   0000000180018a20     c1_Quan.obj
+ 0003:00000a98       $SG18629                   0000000180018a98     c1_Quan.obj
+ 0003:00000aa0       $SG18630                   0000000180018aa0     c1_Quan.obj
+ 0003:00000aa8       $SG17609                   0000000180018aa8     c1_Quan.obj
+ 0003:00000ab0       $SG17610                   0000000180018ab0     c1_Quan.obj
+ 0003:00000ab8       $SG17611                   0000000180018ab8     c1_Quan.obj
+ 0003:00000ac0       $SG18636                   0000000180018ac0     c1_Quan.obj
+ 0003:00000ad0       $SG17612                   0000000180018ad0     c1_Quan.obj
+ 0003:00000ad8       $SG17613                   0000000180018ad8     c1_Quan.obj
+ 0003:00000ae0       $SG17614                   0000000180018ae0     c1_Quan.obj
+ 0003:00000ae8       $SG17615                   0000000180018ae8     c1_Quan.obj
+ 0003:00000af0       $SG17616                   0000000180018af0     c1_Quan.obj
+ 0003:00000af8       $SG17617                   0000000180018af8     c1_Quan.obj
+ 0003:00000b0c       $SG17973                   0000000180018b0c     c1_Quan.obj
+ 0003:00000b10       $SG17618                   0000000180018b10     c1_Quan.obj
+ 0003:00000b24       $SG18010                   0000000180018b24     c1_Quan.obj
+ 0003:00000b28       $SG18750                   0000000180018b28     c1_Quan.obj
+ 0003:00000b40       $SG18840                   0000000180018b40     c1_Quan.obj
+ 0003:00000b64       ?c1_b_u@?1??c1_b_error@@9@9 0000000180018b64     c1_Quan.obj
+ 0003:00000b68       $SG18863                   0000000180018b68     c1_Quan.obj
+ 0003:00000b78       $SG18864                   0000000180018b78     c1_Quan.obj
+ 0003:00000b8c       $SG18032                   0000000180018b8c     c1_Quan.obj
+ 0003:00000b90       $SG18874                   0000000180018b90     c1_Quan.obj
+ 0003:00000bc0       $SG18902                   0000000180018bc0     c1_Quan.obj
+ 0003:00000c1c       $SG18034                   0000000180018c1c     c1_Quan.obj
+ 0003:00000c20       $SG17980                   0000000180018c20     c1_Quan.obj
+ 0003:00000c30       ?c1_u@?1??c1_error@@9@9    0000000180018c30     c1_Quan.obj
+ 0003:00000c50       $SG18011                   0000000180018c50     c1_Quan.obj
+ 0003:00000c58       $SG18012                   0000000180018c58     c1_Quan.obj
+ 0003:00000c60       ?c1_u@?1??c1_b_error@@9@9  0000000180018c60     c1_Quan.obj
+ 0003:00000c80       $SG18035                   0000000180018c80     c1_Quan.obj
+ 0003:00000c88       $SG18036                   0000000180018c88     c1_Quan.obj
+ 0003:00000c90       $SG18070                   0000000180018c90     c1_Quan.obj
+ 0003:00000c94       $SG18195                   0000000180018c94     c1_Quan.obj
+ 0003:00000c9c       $SG17255                   0000000180018c9c     c1_Quan.obj
+ 0003:00000ca0       $SG18193                   0000000180018ca0     c1_Quan.obj
+ 0003:00000cac       $SG18196                   0000000180018cac     c1_Quan.obj
+ 0003:00000cb4       $SG17256                   0000000180018cb4     c1_Quan.obj
+ 0003:00000cb8       $SG18194                   0000000180018cb8     c1_Quan.obj
+ 0003:00000cc4       $SG18201                   0000000180018cc4     c1_Quan.obj
+ 0003:00000ccc       $SG17257                   0000000180018ccc     c1_Quan.obj
+ 0003:00000cd0       $SG18197                   0000000180018cd0     c1_Quan.obj
+ 0003:00000cdc       $SG17258                   0000000180018cdc     c1_Quan.obj
+ 0003:00000ce0       $SG18198                   0000000180018ce0     c1_Quan.obj
+ 0003:00000cec       $SG17259                   0000000180018cec     c1_Quan.obj
+ 0003:00000cf0       $SG18199                   0000000180018cf0     c1_Quan.obj
+ 0003:00000cf8       $SG18200                   0000000180018cf8     c1_Quan.obj
+ 0003:00000d00       $SG18202                   0000000180018d00     c1_Quan.obj
+ 0003:00000d08       $SG18203                   0000000180018d08     c1_Quan.obj
+ 0003:00000d18       $SG18204                   0000000180018d18     c1_Quan.obj
+ 0003:00000d28       $SG18207                   0000000180018d28     c1_Quan.obj
+ 0003:00000d40       $SG18208                   0000000180018d40     c1_Quan.obj
+ 0003:00000d4c       $SG18210                   0000000180018d4c     c1_Quan.obj
+ 0003:00000d54       $SG18211                   0000000180018d54     c1_Quan.obj
+ 0003:00000d5c       $SG18212                   0000000180018d5c     c1_Quan.obj
+ 0003:00000d64       $SG18213                   0000000180018d64     c1_Quan.obj
+ 0003:00000d6c       $SG18223                   0000000180018d6c     c1_Quan.obj
+ 0003:00000d74       $SG17260                   0000000180018d74     c1_Quan.obj
+ 0003:00000d78       $SG18214                   0000000180018d78     c1_Quan.obj
+ 0003:00000d84       $SG17261                   0000000180018d84     c1_Quan.obj
+ 0003:00000d88       $SG18215                   0000000180018d88     c1_Quan.obj
+ 0003:00000d94       $SG18219                   0000000180018d94     c1_Quan.obj
+ 0003:00000d9c       $SG18221                   0000000180018d9c     c1_Quan.obj
+ 0003:00000da4       $SG18222                   0000000180018da4     c1_Quan.obj
+ 0003:00000dac       $SG18224                   0000000180018dac     c1_Quan.obj
+ 0003:00000db4       $SG17263                   0000000180018db4     c1_Quan.obj
+ 0003:00000db8       $SG18225                   0000000180018db8     c1_Quan.obj
+ 0003:00000dcc       $SG18229                   0000000180018dcc     c1_Quan.obj
+ 0003:00000dd4       $SG17264                   0000000180018dd4     c1_Quan.obj
+ 0003:00000dd8       $SG18226                   0000000180018dd8     c1_Quan.obj
+ 0003:00000dec       $SG18228                   0000000180018dec     c1_Quan.obj
+ 0003:00000df4       $SG18239                   0000000180018df4     c1_Quan.obj
+ 0003:00000dfc       $SG17265                   0000000180018dfc     c1_Quan.obj
+ 0003:00000e00       $SG18230                   0000000180018e00     c1_Quan.obj
+ 0003:00000e14       $SG18231                   0000000180018e14     c1_Quan.obj
+ 0003:00000e1c       $SG18240                   0000000180018e1c     c1_Quan.obj
+ 0003:00000e24       $SG17266                   0000000180018e24     c1_Quan.obj
+ 0003:00000e28       $SG18232                   0000000180018e28     c1_Quan.obj
+ 0003:00000e34       $SG18235                   0000000180018e34     c1_Quan.obj
+ 0003:00000e3c       $SG18237                   0000000180018e3c     c1_Quan.obj
+ 0003:00000e44       $SG18238                   0000000180018e44     c1_Quan.obj
+ 0003:00000e4c       $SG18245                   0000000180018e4c     c1_Quan.obj
+ 0003:00000e54       $SG17267                   0000000180018e54     c1_Quan.obj
+ 0003:00000e58       $SG18241                   0000000180018e58     c1_Quan.obj
+ 0003:00000e6c       $SG18255                   0000000180018e6c     c1_Quan.obj
+ 0003:00000e74       $SG17268                   0000000180018e74     c1_Quan.obj
+ 0003:00000e78       $SG18242                   0000000180018e78     c1_Quan.obj
+ 0003:00000e8c       $SG18244                   0000000180018e8c     c1_Quan.obj
+ 0003:00000e94       $SG18256                   0000000180018e94     c1_Quan.obj
+ 0003:00000e9c       $SG17269                   0000000180018e9c     c1_Quan.obj
+ 0003:00000ea0       $SG18246                   0000000180018ea0     c1_Quan.obj
+ 0003:00000eb4       $SG18247                   0000000180018eb4     c1_Quan.obj
+ 0003:00000ebc       $SG18261                   0000000180018ebc     c1_Quan.obj
+ 0003:00000ec4       $SG17270                   0000000180018ec4     c1_Quan.obj
+ 0003:00000ec8       $SG18248                   0000000180018ec8     c1_Quan.obj
+ 0003:00000ed4       $SG18251                   0000000180018ed4     c1_Quan.obj
+ 0003:00000edc       $SG18253                   0000000180018edc     c1_Quan.obj
+ 0003:00000ee4       $SG18254                   0000000180018ee4     c1_Quan.obj
+ 0003:00000eec       $SG18271                   0000000180018eec     c1_Quan.obj
+ 0003:00000ef4       $SG17271                   0000000180018ef4     c1_Quan.obj
+ 0003:00000ef8       $SG18257                   0000000180018ef8     c1_Quan.obj
+ 0003:00000f0c       $SG18272                   0000000180018f0c     c1_Quan.obj
+ 0003:00000f14       $SG17272                   0000000180018f14     c1_Quan.obj
+ 0003:00000f18       $SG18258                   0000000180018f18     c1_Quan.obj
+ 0003:00000f2c       $SG18260                   0000000180018f2c     c1_Quan.obj
+ 0003:00000f34       $SG18277                   0000000180018f34     c1_Quan.obj
+ 0003:00000f3c       $SG17273                   0000000180018f3c     c1_Quan.obj
+ 0003:00000f40       $SG18262                   0000000180018f40     c1_Quan.obj
+ 0003:00000f54       $SG18263                   0000000180018f54     c1_Quan.obj
+ 0003:00000f5c       $SG17262                   0000000180018f5c     c1_Quan.obj
+ 0003:00000f64       $SG17275                   0000000180018f64     c1_Quan.obj
+ 0003:00000f68       $SG18264                   0000000180018f68     c1_Quan.obj
+ 0003:00000f74       $SG18267                   0000000180018f74     c1_Quan.obj
+ 0003:00000f7c       $SG18269                   0000000180018f7c     c1_Quan.obj
+ 0003:00000f84       $SG18270                   0000000180018f84     c1_Quan.obj
+ 0003:00000f8c       $SG18287                   0000000180018f8c     c1_Quan.obj
+ 0003:00000f94       $SG17276                   0000000180018f94     c1_Quan.obj
+ 0003:00000f98       $SG18273                   0000000180018f98     c1_Quan.obj
+ 0003:00000fac       $SG18288                   0000000180018fac     c1_Quan.obj
+ 0003:00000fb4       $SG17277                   0000000180018fb4     c1_Quan.obj
+ 0003:00000fb8       $SG18274                   0000000180018fb8     c1_Quan.obj
+ 0003:00000fcc       $SG18276                   0000000180018fcc     c1_Quan.obj
+ 0003:00000fd8       $SG18278                   0000000180018fd8     c1_Quan.obj
+ 0003:00000ff0       c1_debug_family_names      0000000180018ff0     c1_Quan.obj
+ 0003:00001188       $SG18279                   0000000180019188     c1_Quan.obj
+ 0003:00001190       $SG18280                   0000000180019190     c1_Quan.obj
+ 0003:0000119c       $SG18283                   000000018001919c     c1_Quan.obj
+ 0003:000011a4       $SG18285                   00000001800191a4     c1_Quan.obj
+ 0003:000011ac       $SG18286                   00000001800191ac     c1_Quan.obj
+ 0003:000011b4       $SG18293                   00000001800191b4     c1_Quan.obj
+ 0003:000011bc       $SG17278                   00000001800191bc     c1_Quan.obj
+ 0003:000011c0       $SG18289                   00000001800191c0     c1_Quan.obj
+ 0003:000011d4       $SG18303                   00000001800191d4     c1_Quan.obj
+ 0003:000011dc       $SG17279                   00000001800191dc     c1_Quan.obj
+ 0003:000011e0       $SG18290                   00000001800191e0     c1_Quan.obj
+ 0003:000011f4       $SG18292                   00000001800191f4     c1_Quan.obj
+ 0003:000011fc       $SG18304                   00000001800191fc     c1_Quan.obj
+ 0003:00001204       $SG17280                   0000000180019204     c1_Quan.obj
+ 0003:00001208       $SG18294                   0000000180019208     c1_Quan.obj
+ 0003:0000121c       $SG18295                   000000018001921c     c1_Quan.obj
+ 0003:00001224       $SG17281                   0000000180019224     c1_Quan.obj
+ 0003:00001228       $SG18296                   0000000180019228     c1_Quan.obj
+ 0003:00001234       $SG17274                   0000000180019234     c1_Quan.obj
+ 0003:0000123c       $SG18299                   000000018001923c     c1_Quan.obj
+ 0003:00001244       $SG18301                   0000000180019244     c1_Quan.obj
+ 0003:0000124c       $SG18302                   000000018001924c     c1_Quan.obj
+ 0003:00001254       $SG17282                   0000000180019254     c1_Quan.obj
+ 0003:00001258       $SG18305                   0000000180019258     c1_Quan.obj
+ 0003:0000126c       $SG17283                   000000018001926c     c1_Quan.obj
+ 0003:00001270       $SG18306                   0000000180019270     c1_Quan.obj
+ 0003:00001284       $SG18308                   0000000180019284     c1_Quan.obj
+ 0003:0000128c       $SG17284                   000000018001928c     c1_Quan.obj
+ 0003:00001290       $SG18309                   0000000180019290     c1_Quan.obj
+ 0003:00001298       $SG17285                   0000000180019298     c1_Quan.obj
+ 0003:000012a0       $SG18310                   00000001800192a0     c1_Quan.obj
+ 0003:000012b4       $SG17287                   00000001800192b4     c1_Quan.obj
+ 0003:000012b8       $SG17286                   00000001800192b8     c1_Quan.obj
+ 0003:000012c0       $SG18311                   00000001800192c0     c1_Quan.obj
+ 0003:000012c8       $SG18312                   00000001800192c8     c1_Quan.obj
+ 0003:000012d4       $SG17288                   00000001800192d4     c1_Quan.obj
+ 0003:000012d8       $SG17289                   00000001800192d8     c1_Quan.obj
+ 0003:000012dc       $SG17290                   00000001800192dc     c1_Quan.obj
+ 0003:000012e0       $SG17291                   00000001800192e0     c1_Quan.obj
+ 0003:000012e4       $SG18316                   00000001800192e4     c1_Quan.obj
+ 0003:000012ec       $SG17292                   00000001800192ec     c1_Quan.obj
+ 0003:000012f0       $SG17293                   00000001800192f0     c1_Quan.obj
+ 0003:000012f8       $SG18318                   00000001800192f8     c1_Quan.obj
+ 0003:00001300       $SG17294                   0000000180019300     c1_Quan.obj
+ 0003:00001308       $SG18319                   0000000180019308     c1_Quan.obj
+ 0003:00001310       $SG17295                   0000000180019310     c1_Quan.obj
+ 0003:00001314       $SG18320                   0000000180019314     c1_Quan.obj
+ 0003:0000131c       $SG17296                   000000018001931c     c1_Quan.obj
+ 0003:00001320       $SG18321                   0000000180019320     c1_Quan.obj
+ 0003:00001328       $SG17297                   0000000180019328     c1_Quan.obj
+ 0003:0000132c       $SG17298                   000000018001932c     c1_Quan.obj
+ 0003:00001330       $SG18322                   0000000180019330     c1_Quan.obj
+ 0003:00001344       $SG17299                   0000000180019344     c1_Quan.obj
+ 0003:00001348       $SG18323                   0000000180019348     c1_Quan.obj
+ 0003:0000135c       $SG17300                   000000018001935c     c1_Quan.obj
+ 0003:00001364       $SG18325                   0000000180019364     c1_Quan.obj
+ 0003:0000136c       $SG18326                   000000018001936c     c1_Quan.obj
+ 0003:00001374       $SG18330                   0000000180019374     c1_Quan.obj
+ 0003:00001380       $SG17301                   0000000180019380     c1_Quan.obj
+ 0003:00001388       $SG17302                   0000000180019388     c1_Quan.obj
+ 0003:00001390       $SG18327                   0000000180019390     c1_Quan.obj
+ 0003:000013a4       $SG17303                   00000001800193a4     c1_Quan.obj
+ 0003:000013ac       $SG18328                   00000001800193ac     c1_Quan.obj
+ 0003:000013b4       $SG17304                   00000001800193b4     c1_Quan.obj
+ 0003:000013c0       $SG18329                   00000001800193c0     c1_Quan.obj
+ 0003:000013cc       $SG17305                   00000001800193cc     c1_Quan.obj
+ 0003:000013d8       $SG18331                   00000001800193d8     c1_Quan.obj
+ 0003:000013e4       $SG18333                   00000001800193e4     c1_Quan.obj
+ 0003:000013ec       $SG18334                   00000001800193ec     c1_Quan.obj
+ 0003:000013f4       $SG18335                   00000001800193f4     c1_Quan.obj
+ 0003:000013fc       $SG18336                   00000001800193fc     c1_Quan.obj
+ 0003:00001408       $SG18337                   0000000180019408     c1_Quan.obj
+ 0003:00001418       $SG18338                   0000000180019418     c1_Quan.obj
+ 0003:00001424       $SG18342                   0000000180019424     c1_Quan.obj
+ 0003:0000142c       $SG18344                   000000018001942c     c1_Quan.obj
+ 0003:00001434       $SG18345                   0000000180019434     c1_Quan.obj
+ 0003:0000143c       $SG18346                   000000018001943c     c1_Quan.obj
+ 0003:00001444       $SG18347                   0000000180019444     c1_Quan.obj
+ 0003:00001450       $SG18348                   0000000180019450     c1_Quan.obj
+ 0003:00001468       $SG18349                   0000000180019468     c1_Quan.obj
+ 0003:0000147c       $SG18351                   000000018001947c     c1_Quan.obj
+ 0003:00001484       $SG18352                   0000000180019484     c1_Quan.obj
+ 0003:00001490       $SG18353                   0000000180019490     c1_Quan.obj
+ 0003:000014a4       $SG18354                   00000001800194a4     c1_Quan.obj
+ 0003:000014b0       $SG18355                   00000001800194b0     c1_Quan.obj
+ 0003:000014bc       $SG18358                   00000001800194bc     c1_Quan.obj
+ 0003:000014c4       $SG18360                   00000001800194c4     c1_Quan.obj
+ 0003:000014cc       $SG18361                   00000001800194cc     c1_Quan.obj
+ 0003:000014d4       $SG18362                   00000001800194d4     c1_Quan.obj
+ 0003:000014dc       $SG18363                   00000001800194dc     c1_Quan.obj
+ 0003:000014e8       $SG18364                   00000001800194e8     c1_Quan.obj
+ 0003:00001500       $SG18365                   0000000180019500     c1_Quan.obj
+ 0003:00001514       $SG18367                   0000000180019514     c1_Quan.obj
+ 0003:0000151c       $SG18368                   000000018001951c     c1_Quan.obj
+ 0003:00001528       $SG18369                   0000000180019528     c1_Quan.obj
+ 0003:0000153c       $SG18370                   000000018001953c     c1_Quan.obj
+ 0003:00001548       $SG18371                   0000000180019548     c1_Quan.obj
+ 0003:00001554       $SG18374                   0000000180019554     c1_Quan.obj
+ 0003:0000155c       $SG18376                   000000018001955c     c1_Quan.obj
+ 0003:00001564       $SG18377                   0000000180019564     c1_Quan.obj
+ 0003:0000156c       $SG18378                   000000018001956c     c1_Quan.obj
+ 0003:00001574       $SG18379                   0000000180019574     c1_Quan.obj
+ 0003:00001580       $SG18380                   0000000180019580     c1_Quan.obj
+ 0003:00001598       $SG18381                   0000000180019598     c1_Quan.obj
+ 0003:000015ac       $SG18383                   00000001800195ac     c1_Quan.obj
+ 0003:000015b4       $SG18384                   00000001800195b4     c1_Quan.obj
+ 0003:000015c0       $SG18385                   00000001800195c0     c1_Quan.obj
+ 0003:000015d4       $SG18386                   00000001800195d4     c1_Quan.obj
+ 0003:000015e0       $SG18387                   00000001800195e0     c1_Quan.obj
+ 0003:000015ec       $SG18390                   00000001800195ec     c1_Quan.obj
+ 0003:000015f4       $SG18392                   00000001800195f4     c1_Quan.obj
+ 0003:000015fc       $SG18393                   00000001800195fc     c1_Quan.obj
+ 0003:00001604       $SG18394                   0000000180019604     c1_Quan.obj
+ 0003:0000160c       $SG18395                   000000018001960c     c1_Quan.obj
+ 0003:00001618       $SG18396                   0000000180019618     c1_Quan.obj
+ 0003:00001630       $SG18397                   0000000180019630     c1_Quan.obj
+ 0003:00001644       $SG18399                   0000000180019644     c1_Quan.obj
+ 0003:0000164c       $SG18400                   000000018001964c     c1_Quan.obj
+ 0003:00001658       $SG18401                   0000000180019658     c1_Quan.obj
+ 0003:0000166c       $SG18402                   000000018001966c     c1_Quan.obj
+ 0003:00001678       $SG18403                   0000000180019678     c1_Quan.obj
+ 0003:00001684       $SG18406                   0000000180019684     c1_Quan.obj
+ 0003:0000168c       $SG18408                   000000018001968c     c1_Quan.obj
+ 0003:00001694       $SG18409                   0000000180019694     c1_Quan.obj
+ 0003:0000169c       $SG18410                   000000018001969c     c1_Quan.obj
+ 0003:000016a4       $SG18411                   00000001800196a4     c1_Quan.obj
+ 0003:000016b0       $SG18412                   00000001800196b0     c1_Quan.obj
+ 0003:000016c8       $SG18413                   00000001800196c8     c1_Quan.obj
+ 0003:000016dc       $SG18415                   00000001800196dc     c1_Quan.obj
+ 0003:000016e4       $SG18416                   00000001800196e4     c1_Quan.obj
+ 0003:000016f0       $SG18417                   00000001800196f0     c1_Quan.obj
+ 0003:00001704       $SG18418                   0000000180019704     c1_Quan.obj
+ 0003:00001710       $SG18419                   0000000180019710     c1_Quan.obj
+ 0003:0000171c       $SG18422                   000000018001971c     c1_Quan.obj
+ 0003:00001724       $SG18424                   0000000180019724     c1_Quan.obj
+ 0003:0000172c       $SG18425                   000000018001972c     c1_Quan.obj
+ 0003:00001734       $SG18426                   0000000180019734     c1_Quan.obj
+ 0003:0000173c       $SG18427                   000000018001973c     c1_Quan.obj
+ 0003:00001748       $SG18428                   0000000180019748     c1_Quan.obj
+ 0003:00001760       $SG18429                   0000000180019760     c1_Quan.obj
+ 0003:00001774       $SG18431                   0000000180019774     c1_Quan.obj
+ 0003:00001780       $SG19459                   0000000180019780     Quan_sfun_registry.obj
+ 0003:000017b0       $SG19468                   00000001800197b0     Quan_sfun_registry.obj
+ 0003:000017e8       $SG19473                   00000001800197e8     Quan_sfun_registry.obj
+ 0003:0000181c       $SG17582                   000000018001981c     Quan_sfun_registry.obj
+ 0003:00001824       $SG19223                   0000000180019824     Quan_sfun_registry.obj
+ 0003:00001828       $SG17425                   0000000180019828     Quan_sfun_registry.obj
+ 0003:00001838       $SG19481                   0000000180019838     Quan_sfun_registry.obj
+ 0003:00001870       $SG19489                   0000000180019870     Quan_sfun_registry.obj
+ 0003:000018a8       $SG19497                   00000001800198a8     Quan_sfun_registry.obj
+ 0003:000018d8       $SG19505                   00000001800198d8     Quan_sfun_registry.obj
+ 0003:00001908       $SG19512                   0000000180019908     Quan_sfun_registry.obj
+ 0003:00001934       $SG19296                   0000000180019934     Quan_sfun_registry.obj
+ 0003:00001938       $SG17468                   0000000180019938     Quan_sfun_registry.obj
+ 0003:00001950       $SG19519                   0000000180019950     Quan_sfun_registry.obj
+ 0003:00001980       $SG19524                   0000000180019980     Quan_sfun_registry.obj
+ 0003:000019b0       $SG19532                   00000001800199b0     Quan_sfun_registry.obj
+ 0003:000019e0       $SG19540                   00000001800199e0     Quan_sfun_registry.obj
+ 0003:00001a18       $SG19545                   0000000180019a18     Quan_sfun_registry.obj
+ 0003:00001a4c       $SG17499                   0000000180019a4c     Quan_sfun_registry.obj
+ 0003:00001a58       $SG19553                   0000000180019a58     Quan_sfun_registry.obj
+ 0003:00001a88       $SG19559                   0000000180019a88     Quan_sfun_registry.obj
+ 0003:00001ab0       $SG19564                   0000000180019ab0     Quan_sfun_registry.obj
+ 0003:00001ad0       $SG19569                   0000000180019ad0     Quan_sfun_registry.obj
+ 0003:00001b00       $SG19574                   0000000180019b00     Quan_sfun_registry.obj
+ 0003:00001b20       $SG19579                   0000000180019b20     Quan_sfun_registry.obj
+ 0003:00001b40       $SG19584                   0000000180019b40     Quan_sfun_registry.obj
+ 0003:00001b60       $SG19589                   0000000180019b60     Quan_sfun_registry.obj
+ 0003:00001b88       $SG19594                   0000000180019b88     Quan_sfun_registry.obj
+ 0003:00001bb0       $SG19599                   0000000180019bb0     Quan_sfun_registry.obj
+ 0003:00001bd8       $SG18578                   0000000180019bd8     Quan_sfun_registry.obj
+ 0003:00001c18       $SG18583                   0000000180019c18     Quan_sfun_registry.obj
+ 0003:00001c48       $SG19608                   0000000180019c48     Quan_sfun_registry.obj
+ 0003:00001c68       $SG19613                   0000000180019c68     Quan_sfun_registry.obj
+ 0003:00001c90       $SG18588                   0000000180019c90     Quan_sfun_registry.obj
+ 0003:00001cd8       $SG19617                   0000000180019cd8     Quan_sfun_registry.obj
+ 0003:00001d00       $SG19625                   0000000180019d00     Quan_sfun_registry.obj
+ 0003:00001d28       $SG18602                   0000000180019d28     Quan_sfun_registry.obj
+ 0003:00001d60       $SG17583                   0000000180019d60     Quan_sfun_registry.obj
+ 0003:00001d78       $SG19632                   0000000180019d78     Quan_sfun_registry.obj
+ 0003:00001da0       $SG17588                   0000000180019da0     Quan_sfun_registry.obj
+ 0003:00001da8       $SG17589                   0000000180019da8     Quan_sfun_registry.obj
+ 0003:00001dc8       $SG17729                   0000000180019dc8     Quan_sfun_registry.obj
+ 0003:00001df0       _sfcnName                  0000000180019df0     Quan_sfun_registry.obj
+ 0003:00001e10       $SG17746                   0000000180019e10     Quan_sfun_registry.obj
+ 0003:00001e88       $SG18874                   0000000180019e88     Quan_sfun_registry.obj
+ 0003:00001ec8       $SG18882                   0000000180019ec8     Quan_sfun_registry.obj
+ 0003:00001f00       $SG18896                   0000000180019f00     Quan_sfun_registry.obj
+ 0003:00001f20       $SG18041                   0000000180019f20     Quan_sfun_registry.obj
+ 0003:00001f28       $SG18042                   0000000180019f28     Quan_sfun_registry.obj
+ 0003:00001f30       $SG18063                   0000000180019f30     Quan_sfun_registry.obj
+ 0003:00001f40       $SG18087                   0000000180019f40     Quan_sfun_registry.obj
+ 0003:00001f4c       $SG18089                   0000000180019f4c     Quan_sfun_registry.obj
+ 0003:00001f58       $SG18092                   0000000180019f58     Quan_sfun_registry.obj
+ 0003:00001f68       $SG19220                   0000000180019f68     Quan_sfun_registry.obj
+ 0003:00001fa8       $SG19242                   0000000180019fa8     Quan_sfun_registry.obj
+ 0003:00001fb0       $SG19243                   0000000180019fb0     Quan_sfun_registry.obj
+ 0003:00001fb8       $SG19244                   0000000180019fb8     Quan_sfun_registry.obj
+ 0003:00001fc0       $SG19245                   0000000180019fc0     Quan_sfun_registry.obj
+ 0003:00002028       $SG19248                   000000018001a028     Quan_sfun_registry.obj
+ 0003:00002068       $SG19250                   000000018001a068     Quan_sfun_registry.obj
+ 0003:00002070       $SG19253                   000000018001a070     Quan_sfun_registry.obj
+ 0003:00002078       $SG19256                   000000018001a078     Quan_sfun_registry.obj
+ 0003:00002080       $SG19258                   000000018001a080     Quan_sfun_registry.obj
+ 0003:000020b0       $SG19260                   000000018001a0b0     Quan_sfun_registry.obj
+ 0003:000020c0       $SG19288                   000000018001a0c0     Quan_sfun_registry.obj
+ 0003:000020cc       $SG19290                   000000018001a0cc     Quan_sfun_registry.obj
+ 0003:000020d4       $SG19292                   000000018001a0d4     Quan_sfun_registry.obj
+ 0003:000020e0       $SG19294                   000000018001a0e0     Quan_sfun_registry.obj
+ 0003:000020f0       $SG17247                   000000018001a0f0     Quan_sfun_registry.obj
+ 0003:0000210c       $SG17252                   000000018001a10c     Quan_sfun_registry.obj
+ 0003:00002118       $SG19321                   000000018001a118     Quan_sfun_registry.obj
+ 0003:00002150       $SG19302                   000000018001a150     Quan_sfun_registry.obj
+ 0003:000021f8       $SG19324                   000000018001a1f8     Quan_sfun_registry.obj
+ 0003:00002224       $SG17290                   000000018001a224     Quan_sfun_registry.obj
+ 0003:00002230       $SG19328                   000000018001a230     Quan_sfun_registry.obj
+ 0003:00002278       $SG17285                   000000018001a278     Quan_sfun_registry.obj
+ 0003:00002298       $SG19357                   000000018001a298     Quan_sfun_registry.obj
+ 0003:000022a0       $SG19334                   000000018001a2a0     Quan_sfun_registry.obj
+ 0003:000022e8       $SG19337                   000000018001a2e8     Quan_sfun_registry.obj
+ 0003:00002308       $SG19359                   000000018001a308     Quan_sfun_registry.obj
+ 0003:00002320       $SG19361                   000000018001a320     Quan_sfun_registry.obj
+ 0003:000023c0       $SG17323                   000000018001a3c0     Quan_sfun_registry.obj
+ 0003:000023d8       $SG17328                   000000018001a3d8     Quan_sfun_registry.obj
+ 0003:000023e0       $SG18360                   000000018001a3e0     Quan_sfun_registry.obj
+ 0003:00002450       $SG18370                   000000018001a450     Quan_sfun_registry.obj
+ 0003:000024c0       $SG17361                   000000018001a4c0     Quan_sfun_registry.obj
+ 0003:000024e0       $SG17366                   000000018001a4e0     Quan_sfun_registry.obj
+ 0003:000024e8       $SG19434                   000000018001a4e8     Quan_sfun_registry.obj
+ 0003:00002518       $SG19442                   000000018001a518     Quan_sfun_registry.obj
+ 0003:00002540       $SG17399                   000000018001a540     Quan_sfun_registry.obj
+ 0003:00002560       $SG19450                   000000018001a560     Quan_sfun_registry.obj
+ 0003:0000258c       $SG17404                   000000018001a58c     Quan_sfun_registry.obj
+ 0003:000025c0       sRtwOptimizationInfoStruct 000000018001a5c0     Quan_sfun.obj
+ 0003:000025c8       sOptimizationInfoFlags     000000018001a5c8     Quan_sfun.obj
+ 0003:000025d0       $SG18562                   000000018001a5d0     c1_Quan.obj
+ 0003:000025d1       $SG18564                   000000018001a5d1     c1_Quan.obj
+ 0003:000025d2       $SG18579                   000000018001a5d2     c1_Quan.obj
+ 0003:000025d8       _sfTime_                   000000018001a5d8     c1_Quan.obj
+ 0003:000025e0       sfGlobalMdlStartCallCounts 000000018001a5e0     Quan_sfun_registry.obj
+ 0003:000025e4       $SG19237                   000000018001a5e4     Quan_sfun_registry.obj
+ 0003:000025f0       ?errmsg@?O@??ssWriteRTWWorkVect@@9@9 000000018001a5f0     Quan_sfun_registry.obj
+ 0003:000026c0       GS_ExceptionRecord         000000018001a6c0     MSVCRT:gs_report.obj
+ 0003:00002760       GS_ContextRecord           000000018001a760     MSVCRT:gs_report.obj
+ 0003:00002c30       DebuggerWasPresent         000000018001ac30     MSVCRT:gs_report.obj
+ 0003:00002c34       __proc_attached            000000018001ac34     MSVCRT:crtdll.obj
+ 0004:00000000       $pdata$load_Quan_optimization_info 000000018001b000     Quan_sfun.obj
+ 0004:0000000c       $pdata$unload_Quan_optimization_info 000000018001b00c     Quan_sfun.obj
+ 0004:00000018       $pdata$sf_Quan_method_dispatcher 000000018001b018     Quan_sfun.obj
+ 0004:00000024       $pdata$sf_Quan_process_check_sum_call 000000018001b024     Quan_sfun.obj
+ 0004:00000030       $pdata$sf_Quan_autoinheritance_info 000000018001b030     Quan_sfun.obj
+ 0004:0000003c       $pdata$sf_Quan_get_eml_resolved_functions_info 000000018001b03c     Quan_sfun.obj
+ 0004:00000048       $pdata$sf_Quan_third_party_uses_info 000000018001b048     Quan_sfun.obj
+ 0004:00000054       $pdata$sf_Quan_jit_fallback_info 000000018001b054     Quan_sfun.obj
+ 0004:00000060       $pdata$sf_Quan_updateBuildInfo_args_info 000000018001b060     Quan_sfun.obj
+ 0004:0000006c       $pdata$Quan_debug_initialize 000000018001b06c     Quan_sfun.obj
+ 0004:00000078       $pdata$sf_c1_Quan_get_eml_resolved_functions_info 000000018001b078     c1_Quan.obj
+ 0004:00000084       $pdata$sf_c1_Quan_get_check_sum 000000018001b084     c1_Quan.obj
+ 0004:00000090       $pdata$c1_Quan_method_dispatcher 000000018001b090     c1_Quan.obj
+ 0004:0000009c       $pdata$chart_debug_initialization 000000018001b09c     c1_Quan.obj
+ 0004:000000a8       $pdata$chart_debug_initialize_data_addresses 000000018001b0a8     c1_Quan.obj
+ 0004:000000b4       $pdata$initialize_c1_Quan  000000018001b0b4     c1_Quan.obj
+ 0004:000000c0       $pdata$enable_c1_Quan      000000018001b0c0     c1_Quan.obj
+ 0004:000000cc       $pdata$disable_c1_Quan     000000018001b0cc     c1_Quan.obj
+ 0004:000000d8       $pdata$get_sim_state_c1_Quan 000000018001b0d8     c1_Quan.obj
+ 0004:000000e4       $pdata$set_sim_state_c1_Quan 000000018001b0e4     c1_Quan.obj
+ 0004:000000f0       $pdata$sf_gateway_c1_Quan  000000018001b0f0     c1_Quan.obj
+ 0004:000000fc       $pdata$c1_chartstep_c1_Quan 000000018001b0fc     c1_Quan.obj
+ 0004:00000108       $pdata$c1_sf_marshallOut   000000018001b108     c1_Quan.obj
+ 0004:00000114       $pdata$c1_emlrt_marshallIn 000000018001b114     c1_Quan.obj
+ 0004:00000120       $pdata$c1_b_emlrt_marshallIn 000000018001b120     c1_Quan.obj
+ 0004:0000012c       $pdata$c1_sf_marshallIn    000000018001b12c     c1_Quan.obj
+ 0004:00000138       $pdata$c1_b_sf_marshallOut 000000018001b138     c1_Quan.obj
+ 0004:00000144       $pdata$c1_mpower           000000018001b144     c1_Quan.obj
+ 0004:00000150       $pdata$c1_error            000000018001b150     c1_Quan.obj
+ 0004:0000015c       $pdata$c1_b_error          000000018001b15c     c1_Quan.obj
+ 0004:00000168       $pdata$c1_d_emlrt_marshallIn 000000018001b168     c1_Quan.obj
+ 0004:00000174       $pdata$c1_e_emlrt_marshallIn 000000018001b174     c1_Quan.obj
+ 0004:00000180       $pdata$c1_b_sqrt           000000018001b180     c1_Quan.obj
+ 0004:0000018c       $pdata$c1_b_sin            000000018001b18c     c1_Quan.obj
+ 0004:00000198       $pdata$c1_b_cos            000000018001b198     c1_Quan.obj
+ 0004:000001a4       $pdata$c1_b_tan            000000018001b1a4     c1_Quan.obj
+ 0004:000001b0       $pdata$init_simulink_io_address 000000018001b1b0     c1_Quan.obj
+ 0004:000001bc       $pdata$sf_c1_Quan_get_post_codegen_info 000000018001b1bc     c1_Quan.obj
+ 0004:000001c8       $pdata$sf_c1_Quan_get_autoinheritance_info 000000018001b1c8     c1_Quan.obj
+ 0004:000001d4       $pdata$sf_c1_Quan_third_party_uses_info 000000018001b1d4     c1_Quan.obj
+ 0004:000001e0       $pdata$sf_c1_Quan_jit_fallback_info 000000018001b1e0     c1_Quan.obj
+ 0004:000001ec       $pdata$sf_c1_Quan_updateBuildInfo_args_info 000000018001b1ec     c1_Quan.obj
+ 0004:000001f8       $pdata$sf_get_sim_state_info_c1_Quan 000000018001b1f8     c1_Quan.obj
+ 0004:00000204       $pdata$sf_opaque_initialize_c1_Quan 000000018001b204     c1_Quan.obj
+ 0004:00000210       $pdata$sf_opaque_enable_c1_Quan 000000018001b210     c1_Quan.obj
+ 0004:0000021c       $pdata$sf_opaque_disable_c1_Quan 000000018001b21c     c1_Quan.obj
+ 0004:00000228       $pdata$sf_opaque_gateway_c1_Quan 000000018001b228     c1_Quan.obj
+ 0004:00000234       $pdata$sf_opaque_get_sim_state_c1_Quan 000000018001b234     c1_Quan.obj
+ 0004:00000240       $pdata$sf_opaque_set_sim_state_c1_Quan 000000018001b240     c1_Quan.obj
+ 0004:0000024c       $pdata$sf_opaque_terminate_c1_Quan 000000018001b24c     c1_Quan.obj
+ 0004:00000258       $pdata$mdlProcessParameters_c1_Quan 000000018001b258     c1_Quan.obj
+ 0004:00000264       $pdata$mdlSetWorkWidths_c1_Quan 000000018001b264     c1_Quan.obj
+ 0004:00000270       $pdata$mdlRTW_c1_Quan      000000018001b270     c1_Quan.obj
+ 0004:0000027c       $pdata$mdlStart_c1_Quan    000000018001b27c     c1_Quan.obj
+ 0004:00000288       $pdata$mexFunction         000000018001b288     Quan_sfun_registry.obj
+ 0004:00000294       $pdata$_ssSetInputPortDirectFeedThroughFcn 000000018001b294     Quan_sfun_registry.obj
+ 0004:000002a0       $pdata$_ssGetInputPortSignalPtrsFcn 000000018001b2a0     Quan_sfun_registry.obj
+ 0004:000002ac       $pdata$_ssGetInputPortSignalFcn 000000018001b2ac     Quan_sfun_registry.obj
+ 0004:000002b8       $pdata$_ssSetInputPortReusableFcn 000000018001b2b8     Quan_sfun_registry.obj
+ 0004:000002c4       $pdata$_ssSetOutputPortReusableFcn 000000018001b2c4     Quan_sfun_registry.obj
+ 0004:000002d0       $pdata$_ssSetSymbolicDimsSupport 000000018001b2d0     Quan_sfun_registry.obj
+ 0004:000002dc       $pdata$_ssRegisterSymbolicDimsExpr 000000018001b2dc     Quan_sfun_registry.obj
+ 0004:000002e8       $pdata$_ssRegisterSymbolicDims 000000018001b2e8     Quan_sfun_registry.obj
+ 0004:000002f4       $pdata$_ssRegisterSymbolicDimsString 000000018001b2f4     Quan_sfun_registry.obj
+ 0004:00000300       $pdata$_ssRegisterSymbolicDimsIntValue 000000018001b300     Quan_sfun_registry.obj
+ 0004:0000030c       $pdata$_ssRegisterSymbolicDimsPlus 000000018001b30c     Quan_sfun_registry.obj
+ 0004:00000318       $pdata$_ssRegisterSymbolicDimsMinus 000000018001b318     Quan_sfun_registry.obj
+ 0004:00000324       $pdata$_ssRegisterSymbolicDimsMultiply 000000018001b324     Quan_sfun_registry.obj
+ 0004:00000330       $pdata$_ssRegisterSymbolicDimsDivide 000000018001b330     Quan_sfun_registry.obj
+ 0004:0000033c       $pdata$_ssGetNumSymbolicDims 000000018001b33c     Quan_sfun_registry.obj
+ 0004:00000348       $pdata$_ssGetSymbolicDim   000000018001b348     Quan_sfun_registry.obj
+ 0004:00000354       $pdata$_ssSetInputPortSymbolicDimsId 000000018001b354     Quan_sfun_registry.obj
+ 0004:00000360       $pdata$_ssGetCompInputPortSymbolicDimsId 000000018001b360     Quan_sfun_registry.obj
+ 0004:0000036c       $pdata$_ssSetCompInputPortSymbolicDimsId 000000018001b36c     Quan_sfun_registry.obj
+ 0004:00000378       $pdata$_ssSetOutputPortSymbolicDimsId 000000018001b378     Quan_sfun_registry.obj
+ 0004:00000384       $pdata$_ssGetCompOutputPortSymbolicDimsId 000000018001b384     Quan_sfun_registry.obj
+ 0004:00000390       $pdata$_ssSetCompOutputPortSymbolicDimsId 000000018001b390     Quan_sfun_registry.obj
+ 0004:0000039c       $pdata$_ssSetCompDWorkSymbolicDimsId 000000018001b39c     Quan_sfun_registry.obj
+ 0004:000003a8       $pdata$ssGetIsZeroCrossControlDisabled 000000018001b3a8     Quan_sfun_registry.obj
+ 0004:000003b4       $pdata$ssSetIsInputPortUsedForContZcSignal 000000018001b3b4     Quan_sfun_registry.obj
+ 0004:000003c0       $pdata$ssSetZcSignalIsZcElementDisc 000000018001b3c0     Quan_sfun_registry.obj
+ 0004:000003cc       $pdata$ssSetZcSignalName   000000018001b3cc     Quan_sfun_registry.obj
+ 0004:000003d8       $pdata$ssSetZcSignalWidth  000000018001b3d8     Quan_sfun_registry.obj
+ 0004:000003e4       $pdata$ssSetZcSignalZcEventType 000000018001b3e4     Quan_sfun_registry.obj
+ 0004:000003f0       $pdata$ssSetZcSignalType   000000018001b3f0     Quan_sfun_registry.obj
+ 0004:000003fc       $pdata$ssSetZcSignalZcTol  000000018001b3fc     Quan_sfun_registry.obj
+ 0004:00000408       $pdata$ssSetZcSignalNeedsEventNotification 000000018001b408     Quan_sfun_registry.obj
+ 0004:00000414       $pdata$ssCreateAndAddZcSignalInfo 000000018001b414     Quan_sfun_registry.obj
+ 0004:00000420       $pdata$ssCloneAndAddZcSignalInfo 000000018001b420     Quan_sfun_registry.obj
+ 0004:0000042c       $pdata$ssGetNumZcSignals   000000018001b42c     Quan_sfun_registry.obj
+ 0004:00000438       $pdata$ssGetZcSignalVector 000000018001b438     Quan_sfun_registry.obj
+ 0004:00000444       $pdata$ssGetZcSignalName   000000018001b444     Quan_sfun_registry.obj
+ 0004:00000450       $pdata$ssGetZcSignalWidth  000000018001b450     Quan_sfun_registry.obj
+ 0004:0000045c       $pdata$ssGetZcSignalZcEventType 000000018001b45c     Quan_sfun_registry.obj
+ 0004:00000468       $pdata$ssGetZcSignalZcEvents 000000018001b468     Quan_sfun_registry.obj
+ 0004:00000474       $pdata$ssGetZcSignalType   000000018001b474     Quan_sfun_registry.obj
+ 0004:00000480       $pdata$ssGetZcSignalZcTol  000000018001b480     Quan_sfun_registry.obj
+ 0004:0000048c       $pdata$ssGetZcSignalNeedsEventNotification 000000018001b48c     Quan_sfun_registry.obj
+ 0004:00000498       $pdata$ssGetZcSignalIsZcElementDisc 000000018001b498     Quan_sfun_registry.obj
+ 0004:000004a4       $pdata$ssGetIsInputPortElementContinuous 000000018001b4a4     Quan_sfun_registry.obj
+ 0004:000004b0       $pdata$ssGetDTypeIdFromMxArray 000000018001b4b0     Quan_sfun_registry.obj
+ 0004:000004bc       $pdata$ssWriteRTWStr       000000018001b4bc     Quan_sfun_registry.obj
+ 0004:000004c8       $pdata$ssWriteRTWNameValuePair 000000018001b4c8     Quan_sfun_registry.obj
+ 0004:000004d4       $pdata$ssWriteRTWParamSettings 000000018001b4d4     Quan_sfun_registry.obj
+ 0004:000004e0       $pdata$ssWriteRTWParameters 000000018001b4e0     Quan_sfun_registry.obj
+ 0004:000004ec       $pdata$ssWriteRTWWorkVect  000000018001b4ec     Quan_sfun_registry.obj
+ 0004:000004f8       $pdata$ssWriteRTWMxVectParam 000000018001b4f8     Quan_sfun_registry.obj
+ 0004:00000504       $pdata$ssWriteRTWMx2dMatParam 000000018001b504     Quan_sfun_registry.obj
+ 0004:00000510       $pdata$_ssSetInputPortMatrixDimensions 000000018001b510     Quan_sfun_registry.obj
+ 0004:0000051c       $pdata$_ssSetOutputPortMatrixDimensions 000000018001b51c     Quan_sfun_registry.obj
+ 0004:00000528       $pdata$_ssSetInputPortVectorDimension 000000018001b528     Quan_sfun_registry.obj
+ 0004:00000534       $pdata$_ssSetOutputPortVectorDimension 000000018001b534     Quan_sfun_registry.obj
+ 0004:00000540       $pdata$ssIsRunTimeParamTunable 000000018001b540     Quan_sfun_registry.obj
+ 0004:0000054c       $pdata$ssGetSFuncBlockHandle 000000018001b54c     Quan_sfun_registry.obj
+ 0004:00000558       $pdata$_ssGetCurrentInputPortWidth 000000018001b558     Quan_sfun_registry.obj
+ 0004:00000564       $pdata$_ssGetCurrentOutputPortWidth 000000018001b564     Quan_sfun_registry.obj
+ 0004:00000570       $pdata$_ssGetCallSystemNumFcnCallDestinations 000000018001b570     Quan_sfun_registry.obj
+ 0004:0000057c       $pdata$ssGetParameterTuningCompliance 000000018001b57c     Quan_sfun_registry.obj
+ 0004:00000588       $pdata$ssWarning           000000018001b588     Quan_sfun_registry.obj
+ 0004:00000594       $pdata$_ssGetAbsTol        000000018001b594     Quan_sfun_registry.obj
+ 0004:000005a0       $pdata$sf_process_check_sum_call 000000018001b5a0     Quan_sfun_registry.obj
+ 0004:000005ac       $pdata$sf_process_autoinheritance_call 000000018001b5ac     Quan_sfun_registry.obj
+ 0004:000005b8       $pdata$sf_process_get_third_party_uses_info_call 000000018001b5b8     Quan_sfun_registry.obj
+ 0004:000005c4       $pdata$sf_process_get_jit_fallback_info_call 000000018001b5c4     Quan_sfun_registry.obj
+ 0004:000005d0       $pdata$sf_process_get_updateBuildInfo_args_info_call 000000018001b5d0     Quan_sfun_registry.obj
+ 0004:000005dc       $pdata$sf_process_get_eml_resolved_functions_info_call 000000018001b5dc     Quan_sfun_registry.obj
+ 0004:000005e8       $pdata$sf_mex_unlock_call  000000018001b5e8     Quan_sfun_registry.obj
+ 0004:000005f4       $pdata$sf_debug_api_wrapper 000000018001b5f4     Quan_sfun_registry.obj
+ 0004:00000600       $pdata$ProcessMexSfunctionCmdLineCall 000000018001b600     Quan_sfun_registry.obj
+ 0004:0000060c       $pdata$sf_machine_global_initializer_called 000000018001b60c     Quan_sfun_registry.obj
+ 0004:00000618       $pdata$sf_machine_global_method_dispatcher 000000018001b618     Quan_sfun_registry.obj
+ 0004:00000624       $pdata$sf_machine_global_terminator 000000018001b624     Quan_sfun_registry.obj
+ 0004:00000630       $pdata$sf_register_machine_exported_symbols 000000018001b630     Quan_sfun_registry.obj
+ 0004:0000063c       $pdata$sf_machine_global_initializer 000000018001b63c     Quan_sfun_registry.obj
+ 0004:00000648       $pdata$mdlGetSimState      000000018001b648     Quan_sfun_registry.obj
+ 0004:00000654       $pdata$mdlSetSimState      000000018001b654     Quan_sfun_registry.obj
+ 0004:00000660       $pdata$mdlSetWorkWidths    000000018001b660     Quan_sfun_registry.obj
+ 0004:0000066c       $pdata$mdlProcessParameters 000000018001b66c     Quan_sfun_registry.obj
+ 0004:00000678       $pdata$mdl_start_processing 000000018001b678     Quan_sfun_registry.obj
+ 0004:00000684       $pdata$mdl_terminate_processing 000000018001b684     Quan_sfun_registry.obj
+ 0004:00000690       $pdata$mdlStart            000000018001b690     Quan_sfun_registry.obj
+ 0004:0000069c       $pdata$mdlTerminate        000000018001b69c     Quan_sfun_registry.obj
+ 0004:000006a8       $pdata$mdlInitializeSizes  000000018001b6a8     Quan_sfun_registry.obj
+ 0004:000006b4       $pdata$mdlInitializeSampleTimes 000000018001b6b4     Quan_sfun_registry.obj
+ 0004:000006c0       $pdata$mdl_outputs_continuous_legacy 000000018001b6c0     Quan_sfun_registry.obj
+ 0004:000006cc       $pdata$mdl_outputs_processing 000000018001b6cc     Quan_sfun_registry.obj
+ 0004:000006d8       $pdata$mdl_zeroCrossings_processing 000000018001b6d8     Quan_sfun_registry.obj
+ 0004:000006e4       $pdata$mdlZeroCrossings    000000018001b6e4     Quan_sfun_registry.obj
+ 0004:000006f0       $pdata$mdl_derivatives_processing 000000018001b6f0     Quan_sfun_registry.obj
+ 0004:000006fc       $pdata$mdlDerivatives      000000018001b6fc     Quan_sfun_registry.obj
+ 0004:00000708       $pdata$mdl_initialize_conditions_processing 000000018001b708     Quan_sfun_registry.obj
+ 0004:00000714       $pdata$mdlInitializeConditions 000000018001b714     Quan_sfun_registry.obj
+ 0004:00000720       $pdata$mdl_ext_mode_exec_processing 000000018001b720     Quan_sfun_registry.obj
+ 0004:0000072c       $pdata$mdlExtModeExec      000000018001b72c     Quan_sfun_registry.obj
+ 0004:00000738       $pdata$mdlRTW              000000018001b738     Quan_sfun_registry.obj
+ 0004:00000744       $pdata$mdl_enable_processing 000000018001b744     Quan_sfun_registry.obj
+ 0004:00000750       $pdata$mdlEnable           000000018001b750     Quan_sfun_registry.obj
+ 0004:0000075c       $pdata$mdl_disable_processing 000000018001b75c     Quan_sfun_registry.obj
+ 0004:00000768       $pdata$mdlDisable          000000018001b768     Quan_sfun_registry.obj
+ 0004:00000774       $pdata$mdlOutputs          000000018001b774     Quan_sfun_registry.obj
+ 0004:00000780       $pdata$mdl_update_processing 000000018001b780     Quan_sfun_registry.obj
+ 0004:0000078c       $pdata$mdlUpdate           000000018001b78c     Quan_sfun_registry.obj
+ 0004:00000798       $pdata$ProcessMexSfunctionEveryCall 000000018001b798     Quan_sfun_registry.obj
+ 0004:000007a4       $pdata$_RegNumInputPortsCB 000000018001b7a4     Quan_sfun_registry.obj
+ 0004:000007b0       $pdata$_RegNumOutputPortsCB 000000018001b7b0     Quan_sfun_registry.obj
+ 0004:000007bc       $pdata$_CreateSimStruct    000000018001b7bc     Quan_sfun_registry.obj
+ 0004:000007c8       $pdata$_ssFatalError       000000018001b7c8     Quan_sfun_registry.obj
+ 0004:000007d4       $pdata$_ProcessMexSfunctionCmdLineCall 000000018001b7d4     Quan_sfun_registry.obj
+ 0004:000007e0       $pdata$__raise_securityfailure 000000018001b7e0     MSVCRT:gs_report.obj
+ 0004:000007ec       $pdata$__report_gsfailure  000000018001b7ec     MSVCRT:gs_report.obj
+ 0004:000007f8       $pdata$__report_rangecheckfailure 000000018001b7f8     MSVCRT:gs_report.obj
+ 0004:00000804       $pdata$__report_securityfailure 000000018001b804     MSVCRT:gs_report.obj
+ 0004:00000810       $pdata$__report_securityfailureEx 000000018001b810     MSVCRT:gs_report.obj
+ 0004:0000081c       $pdata$__GSHandlerCheck    000000018001b81c     MSVCRT:gshandler.obj
+ 0004:00000828       $pdata$__GSHandlerCheckCommon 000000018001b828     MSVCRT:gshandler.obj
+ 0004:00000840       $pdata$pre_c_init          000000018001b840     MSVCRT:crtdll.obj
+ 0004:0000084c       $pdata$_CRT_INIT           000000018001b84c     MSVCRT:crtdll.obj
+ 0004:00000858       $pdata$_DllMainCRTStartup  000000018001b858     MSVCRT:crtdll.obj
+ 0004:00000864       $pdata$__DllMainCRTStartup 000000018001b864     MSVCRT:crtdll.obj
+ 0004:00000870       $pdata$_IsNonwritableInCurrentImage 000000018001b870     MSVCRT:pesect.obj
+ 0004:0000087c       $pdata$__atonexitinit      000000018001b87c     MSVCRT:atonexit.obj
+ 0004:00000888       $pdata$_onexit             000000018001b888     MSVCRT:atonexit.obj
+ 0004:00000894       $pdata$atexit              000000018001b894     MSVCRT:atonexit.obj
+ 0004:000008a0       $pdata$__security_init_cookie 000000018001b8a0     MSVCRT:gs_support.obj
+ 0004:000008ac       $pdata$DllMain             000000018001b8ac     MSVCRT:dllmain.obj
+ 0004:000008b8       $pdata$_RTC_Initialize     000000018001b8b8     MSVCRT:initsect.obj
+ 0004:000008c4       $pdata$_RTC_Terminate      000000018001b8c4     MSVCRT:initsect.obj
+ 0004:000008d0       $pdata$__DllMainCRTStartup$filt$0 000000018001b8d0     MSVCRT:crtdll.obj
+ 0004:000008dc       $pdata$__DllMainCRTStartup$fin$1 000000018001b8dc     MSVCRT:crtdll.obj
+ 0004:000008e8       $pdata$_IsNonwritableInCurrentImage$filt$0 000000018001b8e8     MSVCRT:pesect.obj
+ 0004:000008f4       $pdata$_onexit$fin$0       000000018001b8f4     MSVCRT:atonexit.obj
